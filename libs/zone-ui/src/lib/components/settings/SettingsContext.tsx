@@ -18,20 +18,20 @@ import { SettingsContextProps } from './types';
 const initialState: SettingsContextProps = {
   ...defaultSettings,
   // Mode
-  onToggleMode: () => {},
+  onToggleMode: () => void 0,
   // Direction
-  onToggleDirection: () => {},
+  onToggleDirection: () => void 0,
   // Color
-  onChangeColorPresets: () => {},
+  onChangeColorPresets: () => void 0,
   presetsColor: defaultPreset,
   presetsOption: [],
   // Reset
-  onResetSetting: () => {},
+  onResetSetting: () => void 0,
   // Open
   open: false,
-  onToggle: () => {},
-  onOpen: () => {},
-  onClose: () => {},
+  onToggle: () => void 0,
+  onOpen: () => void 0,
+  onClose: () => void 0,
   // Not default
   notDefault: false,
 };

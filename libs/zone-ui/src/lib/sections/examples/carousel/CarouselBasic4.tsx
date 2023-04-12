@@ -98,7 +98,7 @@ function CarouselItem({ item }: { item: CarouselItemProps }) {
           {item.title}
         </Typography>
         <IconButton
-          onClick={() => {}}
+          onClick={() => void 0}
           sx={{
             color: 'common.white',
             '&:hover': {

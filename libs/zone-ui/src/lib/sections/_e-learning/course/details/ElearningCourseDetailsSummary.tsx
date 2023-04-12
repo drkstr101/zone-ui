@@ -66,7 +66,7 @@ export default function ElearningCourseDetailsSummary({ course }: Props) {
               key={skill}
               label={skill}
               sx={{ m: 0.5 }}
-              onClick={() => {}}
+              onClick={() => void 0}
             />
           ))}
         </Stack>

@@ -22,7 +22,7 @@ export default function PostTags({ tags }: Props) {
           size="small"
           label={tag.label}
           sx={{ m: 0.5 }}
-          onClick={() => {}}
+          onClick={() => void 0}
         />
       ))}
     </Stack>

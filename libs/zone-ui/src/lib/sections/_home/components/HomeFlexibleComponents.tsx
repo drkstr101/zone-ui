@@ -240,7 +240,7 @@ export default function HomeFlexibleComponents() {
                 variant="soft"
                 color="primary"
                 label="Pamela"
-                onDelete={() => {}}
+                onDelete={() => void 0}
                 avatar={<Avatar alt="Pamela">P</Avatar>}
               />
             </StyledBlock>
@@ -293,7 +293,7 @@ export default function HomeFlexibleComponents() {
                     color="inherit"
                     size="small"
                     aria-label="close"
-                    onClick={() => {}}
+                    onClick={() => void 0}
                   >
                     <Iconify icon="carbon:close" />
                   </IconButton>

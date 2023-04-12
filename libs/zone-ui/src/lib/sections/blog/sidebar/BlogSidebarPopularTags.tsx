@@ -21,7 +21,7 @@ export default function BlogSidebarPopularTags({ popularTags }: Props) {
           key={tag.label}
           label={tag.label}
           sx={{ m: 0.5 }}
-          onClick={() => {}}
+          onClick={() => void 0}
         />
       ))}
     </Box>
