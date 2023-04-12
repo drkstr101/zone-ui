@@ -1,6 +1,4 @@
-// theme
-import palette from 'src/theme/palette';
-// types
+import palette from '../../theme/palette';
 import { ThemeColorPresetsValue } from './types';
 
 // ----------------------------------------------------------------------
@@ -123,7 +121,7 @@ export const presets = [
 
 // ----------------------------------------------------------------------
 
-export const defaultPreset = presets[0];
+export const defaultPreset = presets[2];
 
 export const presetsOption = presets.map((color) => ({
   name: color.name,

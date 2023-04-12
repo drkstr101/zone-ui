@@ -10,13 +10,24 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "src/*": ["./apps/demo/src/*"]
+      "@watheia/zone-ui": [
+        "libs/zone-ui/src/index.ts"
+      ],
+      "src/*": [
+        "./libs/zone-ui/src/lib/*"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
