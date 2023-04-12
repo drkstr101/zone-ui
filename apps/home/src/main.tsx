@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 //
-import App from '@watheia/zone-ui';
+import App from '@watheia/waweb.zone-ui';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
