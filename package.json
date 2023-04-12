@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "nx run-many --all --target build",
+    "lint": "nx workspace-lint && nx run-many --all --target lint",
+    "test": "nx run-many --all --target test --coverage"
+  },
   "dependencies": {
     "@emotion/cache": "^11.10.7",
     "@emotion/react": "11.10.6",
@@ -53,6 +58,7 @@
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
+    "@types/stylis": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
     "@vitejs/plugin-react": "^3.1.0",

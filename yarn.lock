@@ -4304,6 +4304,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/stylis@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "@types/stylis@npm:4.0.2"
+  checksum: 5461290afd6e7fbbd713f4896b4c586fa6f3072ef8addcb062feaf112a50168477df98ab474d9b603b19b879696aab6932c5f0bb3cda7472ab9c1622ee7fea60
+  languageName: node
+  linkType: hard
+
 "@types/trusted-types@npm:^2.0.2":
   version: 2.0.3
   resolution: "@types/trusted-types@npm:2.0.3"
@@ -17199,6 +17206,7 @@ __metadata:
     "@types/node": 18.15.11
     "@types/react": 18.0.35
     "@types/react-dom": 18.0.11
+    "@types/stylis": ^4.0.2
     "@typescript-eslint/eslint-plugin": ^5.58.0
     "@typescript-eslint/parser": ^5.58.0
     "@vitejs/plugin-react": ^3.1.0
