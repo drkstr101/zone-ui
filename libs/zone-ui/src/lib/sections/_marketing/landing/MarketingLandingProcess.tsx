@@ -1,8 +1,8 @@
 // @mui
+import { Box, Card, Container, Stack, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Stack, Container, Typography, Card, Box } from '@mui/material';
 // components
-import SvgColor from 'src/components/svg-color';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

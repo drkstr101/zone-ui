@@ -1,11 +1,11 @@
 // @mui
+import { Box, Container, Paper, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Typography, Stack, Container, Paper, Box } from '@mui/material';
 // types
-import { IBrandProps } from 'src/types/brand';
+import { IBrandProps } from '../../../types/brand';
 // components
-import Image from 'src/components/image';
-import Carousel from 'src/components/carousel';
+import Carousel from '../../../components/carousel';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

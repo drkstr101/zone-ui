@@ -1,13 +1,13 @@
 // @mui
 import {
+  Checkbox,
+  IconButton,
+  Stack,
   Tooltip,
   Typography,
-  IconButton,
-  Checkbox,
-  Stack,
 } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { Error404View } from 'src/sections/error/view';
+import { Error404View } from '../sections/error/view';
 
 // ----------------------------------------------------------------------
 

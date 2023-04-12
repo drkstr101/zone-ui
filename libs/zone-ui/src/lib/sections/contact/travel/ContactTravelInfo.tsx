@@ -1,14 +1,14 @@
 import { m } from 'framer-motion';
 // @mui
-import { Box, Typography, Stack, Paper, Container, Link } from '@mui/material';
+import { Box, Container, Link, Paper, Stack, Typography } from '@mui/material';
 // _mock
-import { _offices } from 'src/_mock';
+import { _offices } from '../../../_mock';
 // types
-import { IOfficeMapProps } from 'src/types/contact';
+import { IOfficeMapProps } from '../../../types/contact';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

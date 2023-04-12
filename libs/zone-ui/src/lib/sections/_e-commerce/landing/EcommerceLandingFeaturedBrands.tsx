@@ -1,19 +1,19 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
   Button,
   Container,
-  Typography,
-  StackProps,
   Unstable_Grid2 as Grid,
+  Stack,
+  StackProps,
+  Typography,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import { EcommerceProductItemFeaturedByBrand } from '../product/item';
 

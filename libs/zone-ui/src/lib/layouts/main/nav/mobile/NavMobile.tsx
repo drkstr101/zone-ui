@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 // @mui
-import { List, Drawer, IconButton, Button, Stack } from '@mui/material';
+import { Button, Drawer, IconButton, List, Stack } from '@mui/material';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 // components
-import Logo from 'src/components/logo';
-import Iconify from 'src/components/iconify';
-import Scrollbar from 'src/components/scrollbar';
+import Iconify from '../../../../components/iconify';
+import Logo from '../../../../components/logo';
+import Scrollbar from '../../../../components/scrollbar';
 //
 import { NavProps } from '../types';
 import NavList from './NavList';

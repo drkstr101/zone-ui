@@ -1,21 +1,21 @@
 import { useState } from 'react';
 // @mui
 import {
-  Stack,
-  Container,
   Accordion,
-  Typography,
-  AccordionSummary,
   AccordionDetails,
+  AccordionSummary,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // _mock
-import { _faqs } from 'src/_mock';
+import { _faqs } from '../../../_mock';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

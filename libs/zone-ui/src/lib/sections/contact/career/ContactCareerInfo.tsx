@@ -1,9 +1,9 @@
 // @mui
-import { Typography, Stack, Container, Link, IconButton } from '@mui/material';
+import { Container, IconButton, Link, Stack, Typography } from '@mui/material';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

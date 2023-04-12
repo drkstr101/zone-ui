@@ -1,27 +1,27 @@
 // _mock
 import {
-  _jobs,
   _blogCareerPosts,
   _brandsColor,
-  _testimonials,
-  _jobsByCompanies,
+  _jobs,
   _jobsByCategories,
+  _jobsByCompanies,
   _jobsByCountries,
-} from 'src/_mock';
+  _testimonials,
+} from '../../../_mock';
 //
-import NewsletterCareer from '../../newsletter/career';
-import OurClientsCareer from '../../our-clients/career';
 import { BlogCareerLatestPosts } from '../../blog/career';
 import DownloadAppCareer from '../../download-app/career';
+import NewsletterCareer from '../../newsletter/career';
+import OurClientsCareer from '../../our-clients/career';
 import TestimonialCareer from '../../testimonial/career';
 import {
-  CareerLandingHero,
-  CareerLandingStep,
-  CareerLandingFeaturedJobs,
-  CareerLandingTopCompanies,
   CareerLandingConnections,
-  CareerLandingHotCategories,
+  CareerLandingFeaturedJobs,
   CareerLandingForRecruiters,
+  CareerLandingHero,
+  CareerLandingHotCategories,
+  CareerLandingStep,
+  CareerLandingTopCompanies,
 } from '../landing';
 
 // ----------------------------------------------------------------------

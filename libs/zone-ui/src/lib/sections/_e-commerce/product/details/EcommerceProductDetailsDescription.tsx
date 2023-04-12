@@ -1,7 +1,7 @@
 // @mui
 import { Box, Stack, Typography } from '@mui/material';
 // components
-import Markdown from 'src/components/markdown';
+import Markdown from '../../../../components/markdown';
 
 // ----------------------------------------------------------------------
 

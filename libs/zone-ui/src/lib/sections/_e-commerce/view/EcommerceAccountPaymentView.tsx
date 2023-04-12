@@ -1,13 +1,13 @@
 // @mui
-import { Box, Stack, Button, Divider, Typography } from '@mui/material';
+import { Box, Button, Divider, Stack, Typography } from '@mui/material';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../_mock';
 //
-import { EcommerceAccountLayout } from '../layout';
 import {
-  EcommerceAccountPaymentCard,
   EcommerceAccountNewCardForm,
+  EcommerceAccountPaymentCard,
 } from '../account/payment';
+import { EcommerceAccountLayout } from '../layout';
 
 // ----------------------------------------------------------------------
 

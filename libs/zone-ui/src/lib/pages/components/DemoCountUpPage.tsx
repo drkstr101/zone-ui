@@ -1,13 +1,13 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
-import { Box, Container, Typography, Stack } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../utils/formatNumber';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
-import CountUp from 'src/components/count-up';
+import CountUp from '../../components/count-up';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
 
 // ----------------------------------------------------------------------
 

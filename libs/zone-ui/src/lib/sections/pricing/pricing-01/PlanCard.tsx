@@ -1,10 +1,10 @@
 // @mui
-import { Card, Stack, Button, Typography } from '@mui/material';
+import { Button, Card, Stack, Typography } from '@mui/material';
 // types
-import { IPricing01Props } from 'src/types/pricing';
+import { IPricing01Props } from '../../../types/pricing';
 // components
-import Label from 'src/components/label';
-import Image from 'src/components/image';
+import Image from '../../../components/image';
+import Label from '../../../components/label';
 
 // ----------------------------------------------------------------------
 

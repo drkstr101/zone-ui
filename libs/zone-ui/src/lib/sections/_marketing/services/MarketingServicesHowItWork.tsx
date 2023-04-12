@@ -1,18 +1,18 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
   Timeline,
+  TimelineConnector,
+  TimelineContent,
   TimelineDot,
   TimelineItem,
-  TimelineContent,
   TimelineSeparator,
-  TimelineConnector,
 } from '@mui/lab';
-import { Typography, Container } from '@mui/material';
+import { Container, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 
 // ----------------------------------------------------------------------
 

@@ -3,8 +3,8 @@ import { useRef } from 'react';
 // @mui
 import { Box, Paper, Typography } from '@mui/material';
 // components
-import Scrollbar from 'src/components/scrollbar';
-import { MotionViewport, varContainer } from 'src/components/animate';
+import { MotionViewport, varContainer } from '../../../../components/animate';
+import Scrollbar from '../../../../components/scrollbar';
 //
 import getVariant from '../getVariant';
 

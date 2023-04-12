@@ -1,22 +1,22 @@
 // @mui
 import {
-  Divider,
   Container,
-  Typography,
+  Divider,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import _mock, { _blogTravelPosts, _tags, _categories } from 'src/_mock';
+import _mock, { _blogTravelPosts, _categories, _tags } from '../../../_mock';
 // components
-import Markdown from 'src/components/markdown';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import Markdown from '../../../components/markdown';
 //
+import { PostAuthor, PostSocialsShare, PostTags } from '../../blog/components';
 import BlogSidebar from '../../blog/sidebar';
+import { BlogTravelLatestPosts, BlogTravelPostHero } from '../../blog/travel';
 import NewsletterTravel from '../../newsletter/travel';
-import { PostTags, PostAuthor, PostSocialsShare } from '../../blog/components';
-import { BlogTravelPostHero, BlogTravelLatestPosts } from '../../blog/travel';
 
 // ----------------------------------------------------------------------
 

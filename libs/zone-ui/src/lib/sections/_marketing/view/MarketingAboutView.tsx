@@ -1,17 +1,17 @@
 // _mock
-import { _testimonials, _members, _brandsColor } from 'src/_mock';
+import { _brandsColor, _members, _testimonials } from '../../../_mock';
 //
-import { TeamMarketingAbout } from '../../team/marketing';
 import NewsletterMarketing from '../../newsletter/marketing';
-import TestimonialMarketing from '../../testimonial/marketing';
 import { OurClientsMarketingAbout } from '../../our-clients/marketing';
-import { MarketingLandingFaqs, MarketingLandingFreeSEO } from '../landing';
+import { TeamMarketingAbout } from '../../team/marketing';
+import TestimonialMarketing from '../../testimonial/marketing';
 import {
   MarketingAbout,
-  MarketingAboutStory,
-  MarketingAboutOurVision,
   MarketingAboutCoreValues,
+  MarketingAboutOurVision,
+  MarketingAboutStory,
 } from '../about';
+import { MarketingLandingFaqs, MarketingLandingFreeSEO } from '../landing';
 
 // ----------------------------------------------------------------------
 

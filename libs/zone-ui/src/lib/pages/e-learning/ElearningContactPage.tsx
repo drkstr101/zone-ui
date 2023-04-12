@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { ElearningContactView } from 'src/sections/_e-learning/view';
+import { ElearningContactView } from '../../sections/_e-learning/view';
 
 // ----------------------------------------------------------------------
 

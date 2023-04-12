@@ -1,28 +1,28 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
-  Link,
-  Stack,
-  Drawer,
   Avatar,
   Divider,
+  Drawer,
+  Link,
+  ListItemButton,
   ListItemIcon,
   ListItemText,
-  ListItemButton,
+  Stack,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
-import useActiveLink from 'src/hooks/useActiveLink';
+import useActiveLink from '../../../../hooks/useActiveLink';
+import useResponsive from '../../../../hooks/useResponsive';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../../components/iconify';
+import TextMaxLine from '../../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

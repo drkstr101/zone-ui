@@ -1,10 +1,10 @@
 // @mui
 import { Autocomplete, InputAdornment, InputBase } from '@mui/material';
 // assets
-import { countries } from 'src/assets/data';
+import { countries } from '../../../../../assets/data';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../../components/iconify';
+import Image from '../../../../../components/image';
 
 // ----------------------------------------------------------------------
 

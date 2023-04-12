@@ -2,7 +2,7 @@ import { useState } from 'react';
 // @mui
 import { Container } from '@mui/material';
 // _mock
-import { _reviews } from 'src/_mock';
+import { _reviews } from '../../../_mock';
 //
 import ReviewNewForm from '../components/ReviewNewForm';
 import ReviewList from './ReviewList';

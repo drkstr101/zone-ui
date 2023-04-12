@@ -1,13 +1,13 @@
 import { useState } from 'react';
 // @mui
 import {
-  Slider,
   FormControl,
-  Typography,
   Popover,
   Select,
+  Slider,
+  Typography,
 } from '@mui/material';
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../../../utils/formatNumber';
 //
 import { inputStyle } from '../styles';
 

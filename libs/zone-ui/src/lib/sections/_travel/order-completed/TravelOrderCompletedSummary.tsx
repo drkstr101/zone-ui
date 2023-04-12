@@ -1,10 +1,10 @@
 // @mui
-import { Typography, Stack, Divider } from '@mui/material';
+import { Divider, Stack, Typography } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../utils/formatNumber';
+import { fDate } from '../../../utils/formatTime';
 // components
-import Iconify, { IconifyProps } from 'src/components/iconify';
+import Iconify, { IconifyProps } from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

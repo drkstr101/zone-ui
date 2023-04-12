@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 // @mui
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Typography, Stack, Container, Box } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../_mock';
 // components
-import Carousel, { CarouselArrows } from 'src/components/carousel';
+import Carousel, { CarouselArrows } from '../../../../components/carousel';
 //
 import TopicItem from './TopicItem';
 

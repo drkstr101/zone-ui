@@ -2,16 +2,16 @@
 import {
   Box,
   Container,
-  Typography,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 //
 import {
-  PaymentSummary,
-  PaymentMethods,
   PaymentBillingAddress,
+  PaymentMethods,
+  PaymentSummary,
 } from '../components';
 
 // ----------------------------------------------------------------------

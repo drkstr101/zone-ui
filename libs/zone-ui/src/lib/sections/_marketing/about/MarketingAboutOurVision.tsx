@@ -1,11 +1,11 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Container, Typography, Stack, Fab } from '@mui/material';
+import { Container, Fab, Stack, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

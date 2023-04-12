@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { EcommerceOrderCompletedView } from 'src/sections/_e-commerce/view';
+import { EcommerceOrderCompletedView } from '../../sections/_e-commerce/view';
 
 // ----------------------------------------------------------------------
 

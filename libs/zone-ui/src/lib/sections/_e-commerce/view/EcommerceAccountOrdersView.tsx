@@ -1,37 +1,37 @@
 import { useState } from 'react';
 // @mui
-import { DatePicker } from '@mui/x-date-pickers';
 import {
   Box,
-  Tab,
-  Tabs,
-  Table,
+  FormControlLabel,
+  InputAdornment,
   Stack,
   Switch,
-  TableRow,
+  Tab,
+  Table,
   TableBody,
   TableCell,
+  TableContainer,
+  TablePagination,
+  TableRow,
+  Tabs,
   TextField,
   Typography,
-  TableContainer,
-  InputAdornment,
-  TablePagination,
-  FormControlLabel,
 } from '@mui/material';
+import { DatePicker } from '@mui/x-date-pickers';
 // _mock
-import { _productsTable } from 'src/_mock';
+import { _productsTable } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import Scrollbar from 'src/components/scrollbar';
+import Iconify from '../../../components/iconify';
+import Scrollbar from '../../../components/scrollbar';
 //
-import { EcommerceAccountLayout } from '../layout';
 import {
-  stableSort,
-  getComparator,
-  EcommerceAccountOrdersTableRow,
   EcommerceAccountOrdersTableHead,
+  EcommerceAccountOrdersTableRow,
   EcommerceAccountOrdersTableToolbar,
+  getComparator,
+  stableSort,
 } from '../account/orders';
+import { EcommerceAccountLayout } from '../layout';
 
 // ----------------------------------------------------------------------
 

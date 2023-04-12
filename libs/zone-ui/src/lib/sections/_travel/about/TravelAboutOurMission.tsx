@@ -1,13 +1,13 @@
 // @mui
 import {
-  Stack,
-  Container,
-  Typography,
   Card,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

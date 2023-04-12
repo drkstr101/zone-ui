@@ -1,8 +1,8 @@
 import ReactPlayer from 'react-player';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../utils/cssStyles';
 
 // ----------------------------------------------------------------------
 

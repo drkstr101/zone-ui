@@ -3,15 +3,15 @@ import { Divider } from '@mui/material';
 // _mock
 import {
   _blogCareerPosts,
-  _testimonials,
-  _members,
   _brandsColor,
-} from 'src/_mock';
+  _members,
+  _testimonials,
+} from '../../../_mock';
 //
-import TeamCareer from '../../team/career';
+import { BlogCareerLatestPosts } from '../../blog/career';
 import NewsletterCareer from '../../newsletter/career';
 import OurClientsCareer from '../../our-clients/career';
-import { BlogCareerLatestPosts } from '../../blog/career';
+import TeamCareer from '../../team/career';
 import TestimonialCareer from '../../testimonial/career';
 import { CareerAbout, CareerAboutOurVision } from '../about';
 

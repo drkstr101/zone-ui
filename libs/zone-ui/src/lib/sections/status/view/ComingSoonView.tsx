@@ -1,20 +1,20 @@
 // @mui
 import {
   Box,
-  Stack,
   Button,
-  TextField,
-  Typography,
   IconButton,
   InputAdornment,
+  Stack,
+  TextField,
+  Typography,
 } from '@mui/material';
 // hooks
-import useCountdown from 'src/hooks/useCountdown';
+import useCountdown from '../../../hooks/useCountdown';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

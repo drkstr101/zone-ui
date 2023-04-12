@@ -1,32 +1,32 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
-  Stack,
   Button,
-  Divider,
   Container,
-  Typography,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // _mock
-import _mock, { _socials, _courses } from 'src/_mock';
+import _mock, { _courses, _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import LoadingScreen from 'src/components/loading-screen';
+import Iconify from '../../../components/iconify';
+import LoadingScreen from '../../../components/loading-screen';
 //
 import Advertisement from '../../advertisement';
 import NewsletterElearning from '../../newsletter/e-learning';
 import ReviewElearning from '../../review/e-learning';
-import { ElearningCourseListSimilar } from '../course/list';
 import {
-  ElearningCourseDetailsInfo,
   ElearningCourseDetailsHero,
+  ElearningCourseDetailsInfo,
   ElearningCourseDetailsSummary,
   ElearningCourseDetailsTeachersInfo,
 } from '../course/details';
+import { ElearningCourseListSimilar } from '../course/list';
 
 // ----------------------------------------------------------------------
 

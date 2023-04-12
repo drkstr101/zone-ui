@@ -1,8 +1,8 @@
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import { MegaMenuItemProps } from 'src/components/mega-menu';
+import Iconify from '../../../../components/iconify';
+import { MegaMenuItemProps } from '../../../../components/mega-menu';
 
 // MOCK DATA
 // ----------------------------------------------------------------------

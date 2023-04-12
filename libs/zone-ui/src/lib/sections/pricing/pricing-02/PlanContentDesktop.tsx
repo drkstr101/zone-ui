@@ -1,9 +1,9 @@
 // @mui
-import { Box, Stack, Button } from '@mui/material';
+import { Box, Button, Stack } from '@mui/material';
 // types
-import { IPricing02Props } from 'src/types/pricing';
+import { IPricing02Props } from '../../../types/pricing';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

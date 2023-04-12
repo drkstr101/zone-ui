@@ -1,9 +1,9 @@
 // @mui
 import { Stack } from '@mui/material';
 // types
-import { IProductItemProps } from 'src/types/product';
+import { IProductItemProps } from '../../../types/product';
 // components
-import Scrollbar from 'src/components/scrollbar';
+import Scrollbar from '../../../components/scrollbar';
 //
 import EcommerceCartItem from './EcommerceCartItem';
 

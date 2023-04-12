@@ -3,29 +3,29 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 // @mui
 import {
-  Box,
-  Card,
-  Stack,
-  Container,
   AppBar,
-  Typography,
+  Box,
   Button,
+  Card,
+  Container,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
-import { NAV } from 'src/config-global';
+import { NAV } from '../../config-global';
+import { paths } from '../../routes/paths';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../_mock';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Iconify from '../../components/iconify';
+import Image from '../../components/image';
 import {
-  MegaMenuMobile,
   MegaMenuDesktopHorizon,
   MegaMenuDesktopVertical,
   MegaMenuItemProps,
-} from 'src/components/mega-menu';
+  MegaMenuMobile,
+} from '../../components/mega-menu';
 
 // ----------------------------------------------------------------------
 

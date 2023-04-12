@@ -1,14 +1,14 @@
-import { useState } from 'react';
 import GoogleMapReact from 'google-map-react';
+import { useState } from 'react';
 // @mui
-import { BoxProps, Box } from '@mui/material';
+import { Box, BoxProps } from '@mui/material';
 // config
-import { GOOGLE_MAP_API } from 'src/config-global';
+import { GOOGLE_MAP_API } from '../../../config-global';
 // types
-import { IOfficeMapProps } from 'src/types/contact';
+import { IOfficeMapProps } from '../../../types/contact';
 //
-import MapPopup from './MapPopup';
 import MapMarker from './MapMarker';
+import MapPopup from './MapPopup';
 import { mapStyle } from './styles';
 
 // ----------------------------------------------------------------------

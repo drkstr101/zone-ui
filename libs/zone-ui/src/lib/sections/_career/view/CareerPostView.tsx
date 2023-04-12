@@ -1,36 +1,36 @@
 import { useState } from 'react';
 // @mui
 import {
-  Stack,
   Avatar,
-  Divider,
-  Popover,
   Checkbox,
-  MenuItem,
   Container,
-  Typography,
-  IconButton,
+  Divider,
   Unstable_Grid2 as Grid,
+  IconButton,
+  MenuItem,
+  Popover,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../utils/formatTime';
 // _mock
-import { _blogCareerPosts, _socials } from 'src/_mock';
+import { _blogCareerPosts, _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import Markdown from 'src/components/markdown';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import Iconify from '../../../components/iconify';
+import Markdown from '../../../components/markdown';
 //
-import NewsletterCareer from '../../newsletter/career';
 import { BlogCareerLatestPosts } from '../../blog/career';
 import {
-  PostTags,
   PostAuthor,
-  PostTimeBlock,
   PostSocialsShare,
+  PostTags,
+  PostTimeBlock,
 } from '../../blog/components';
+import NewsletterCareer from '../../newsletter/career';
 
 // ----------------------------------------------------------------------
 

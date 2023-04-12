@@ -1,7 +1,7 @@
 // @mui
-import { Pagination, Box } from '@mui/material';
+import { Box, Pagination } from '@mui/material';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../../types/job';
 //
 import { CareerJobItem, CareerJobItemSkeleton } from '../item';
 

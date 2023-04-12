@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 // @mui
-import { useTheme } from '@mui/material/styles';
 import { Box } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // components
-import Image from 'src/components/image';
 import Carousel, {
-  CarouselDots,
   CarouselArrows,
-} from 'src/components/carousel';
+  CarouselDots,
+} from '../../../components/carousel';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 // @mui
-import { Box, Typography, Container, Tabs, Tab } from '@mui/material';
+import { Box, Container, Tab, Tabs, Typography } from '@mui/material';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 //
 import { EcommerceProductItemBestSellers } from '../product/item';
 

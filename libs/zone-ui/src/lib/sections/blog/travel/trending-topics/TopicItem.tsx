@@ -1,14 +1,14 @@
 import { m } from 'framer-motion';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Typography, Stack, Box } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../_mock';
 // components
-import Image from 'src/components/image';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../../components/animate';
+import Image from '../../../../components/image';
 
 // ----------------------------------------------------------------------
 

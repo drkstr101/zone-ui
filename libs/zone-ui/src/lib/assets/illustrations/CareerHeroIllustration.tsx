@@ -1,15 +1,15 @@
-import { memo } from 'react';
 import { m } from 'framer-motion';
+import { memo } from 'react';
 // @mui
-import { useTheme } from '@mui/material/styles';
 import { Box, BoxProps } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // hooks
-import useHoverParallax from 'src/hooks/useHoverParallax';
+import useHoverParallax from '../../hooks/useHoverParallax';
 // components
-import Image from 'src/components/image';
-import SvgColor from 'src/components/svg-color';
+import Image from '../../components/image';
+import SvgColor from '../../components/svg-color';
 // pattern
-import { Icon, Label, Character, Pattern01, Pattern02 } from './pattern';
+import { Character, Icon, Label, Pattern01, Pattern02 } from './pattern';
 
 // ----------------------------------------------------------------------
 

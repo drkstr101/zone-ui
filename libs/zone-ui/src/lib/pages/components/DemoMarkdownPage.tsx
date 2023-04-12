@@ -1,11 +1,11 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
-import { Box, Card, Container, CardContent } from '@mui/material';
+import { Box, Card, CardContent, Container } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import Markdown from 'src/components/markdown';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Markdown from '../../components/markdown';
 
 // ----------------------------------------------------------------------
 

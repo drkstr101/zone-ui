@@ -1,25 +1,25 @@
 // @mui
-import { alpha } from '@mui/material/styles';
+import { LoadingButton } from '@mui/lab';
 import {
   Box,
-  Stack,
   Button,
   Divider,
-  TextField,
-  Typography,
-  StackProps,
   IconButton,
   InputAdornment,
+  Stack,
+  StackProps,
+  TextField,
+  Typography,
 } from '@mui/material';
-import { LoadingButton } from '@mui/lab';
+import { alpha } from '@mui/material/styles';
 // utils
-import { fCurrency, fPercent } from 'src/utils/formatNumber';
+import { fCurrency, fPercent } from '../../../utils/formatNumber';
 // types
-import { IProductItemProps } from 'src/types/product';
+import { IProductItemProps } from '../../../types/product';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

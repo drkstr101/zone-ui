@@ -1,22 +1,22 @@
 // @mui
 import { Container, Unstable_Grid2 as Grid } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import { _caseStudies, _testimonials } from 'src/_mock';
+import { _caseStudies, _testimonials } from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import Markdown from 'src/components/markdown';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import Image from '../../../components/image';
+import Markdown from '../../../components/markdown';
 //
 import NewsletterMarketing from '../../newsletter/marketing';
 import TestimonialMarketing from '../../testimonial/marketing';
-import { MarketingLandingFreeSEO } from '../landing';
-import { MarketingCaseStudyListSimilar } from '../case-study/list';
 import {
-  MarketingCaseStudyDetailsSummary,
   MarketingCaseStudyDetailsGallery,
+  MarketingCaseStudyDetailsSummary,
 } from '../case-study/details';
+import { MarketingCaseStudyListSimilar } from '../case-study/list';
+import { MarketingLandingFreeSEO } from '../landing';
 
 // ----------------------------------------------------------------------
 

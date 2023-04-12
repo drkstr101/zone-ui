@@ -6,23 +6,23 @@ import { Helmet } from 'react-helmet-async';
 import {
   Box,
   Card,
+  Container,
+  FormControl,
+  FormControlLabel,
+  FormLabel,
   Grid,
   Paper,
   Stack,
   Switch,
-  Container,
-  FormLabel,
-  FormControl,
-  FormControlLabel,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../_mock';
 // components
-import Image from 'src/components/image';
-import Lightbox, { useLightBox } from 'src/components/lightbox';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Image from '../../components/image';
+import Lightbox, { useLightBox } from '../../components/lightbox';
 
 // ----------------------------------------------------------------------
 

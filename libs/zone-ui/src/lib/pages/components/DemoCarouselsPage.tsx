@@ -1,30 +1,30 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
+import { Masonry } from '@mui/lab';
 import {
   Box,
-  Stack,
   Card,
-  Container,
-  CardHeader,
   CardContent,
+  CardHeader,
+  Container,
+  Stack,
 } from '@mui/material';
-import { Masonry } from '@mui/lab';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../_mock';
 // components
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
 // sections
 import {
+  CarouselAnimation,
   CarouselBasic1,
   CarouselBasic2,
   CarouselBasic3,
   CarouselBasic4,
-  CarouselAnimation,
-  CarouselThumbnail,
   CarouselCenterMode,
-} from 'src/sections/examples/carousel';
+  CarouselThumbnail,
+} from '../../sections/examples/carousel';
 
 // ----------------------------------------------------------------------
 

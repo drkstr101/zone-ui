@@ -1,16 +1,16 @@
 import { useState } from 'react';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
   Container,
-  Typography,
+  Stack,
   ToggleButton,
   ToggleButtonGroup,
+  Typography,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // _mock
-import { _pricing01 } from 'src/_mock';
+import { _pricing01 } from '../../../_mock';
 //
 import { PlanCard } from '../pricing-01';
 

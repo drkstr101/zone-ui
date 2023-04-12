@@ -3,9 +3,9 @@ import { useLocation } from 'react-router-dom';
 // @mui
 import { Collapse } from '@mui/material';
 // hooks
-import useActiveLink from 'src/hooks/useActiveLink';
+import useActiveLink from '../../../../hooks/useActiveLink';
 // components
-import { NavSectionVertical } from 'src/components/nav-section';
+import { NavSectionVertical } from '../../../../components/nav-section';
 //
 import { NavItemBaseProps } from '../types';
 import NavItem from './NavItem';

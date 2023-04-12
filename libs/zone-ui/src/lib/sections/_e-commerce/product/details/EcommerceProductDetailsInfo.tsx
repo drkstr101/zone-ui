@@ -2,20 +2,20 @@ import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
-  Stack,
   Button,
-  Rating,
-  Typography,
-  TextField,
   Divider,
+  Rating,
+  Stack,
+  TextField,
+  Typography,
 } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // components
-import Label from 'src/components/label';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
+import Label from '../../../../components/label';
 //
 import {
   ProductColorPicker,

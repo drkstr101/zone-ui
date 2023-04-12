@@ -23,6 +23,7 @@ export default function ThemeRtlLayout({ children }: Props) {
 
   const cacheRtl = createCache({
     key: theme.direction === 'rtl' ? 'rtl' : 'css',
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     // https://github.com/styled-components/stylis-plugin-rtl/issues/35
     stylisPlugins: theme.direction === 'rtl' ? [prefixer, rtlPlugin] : [],

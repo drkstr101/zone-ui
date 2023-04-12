@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Container, Unstable_Grid2 as Grid } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
 // _mock
-import { _reviews } from 'src/_mock';
+import { _reviews } from '../../../_mock';
 //
 import ReviewNewForm from '../components/ReviewNewForm';
 import ReviewList from './ReviewList';

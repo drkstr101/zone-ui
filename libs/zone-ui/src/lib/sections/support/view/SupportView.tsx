@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
-import { Container, Stack, Typography, IconButton } from '@mui/material';
+import { Container, IconButton, Stack, Typography } from '@mui/material';
 // _mock
-import { _faqsSupport } from 'src/_mock';
+import { _faqsSupport } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
-import { SupportHero, SupportNav, SupportContent } from '../components';
+import { SupportContent, SupportHero, SupportNav } from '../components';
 
 // ----------------------------------------------------------------------
 

@@ -1,7 +1,7 @@
 // @mui
 import { Pagination, Stack } from '@mui/material';
 // types
-import { ICourseProps } from 'src/types/course';
+import { ICourseProps } from '../../../../types/course';
 //
 import { ElearningCourseItem, ElearningCourseItemSkeleton } from '../item';
 

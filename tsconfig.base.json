@@ -20,9 +20,6 @@
     "paths": {
       "@watheia/zone-ui": [
         "libs/zone-ui/src/index.ts"
-      ],
-      "src/*": [
-        "./libs/zone-ui/src/lib/*"
       ]
     }
   },

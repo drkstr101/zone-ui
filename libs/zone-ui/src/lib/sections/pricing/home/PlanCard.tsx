@@ -1,13 +1,13 @@
 // @mui
-import { Card, Link, Stack, Button, Divider, Typography } from '@mui/material';
+import { Button, Card, Divider, Link, Stack, Typography } from '@mui/material';
 // types
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { IPricingHomeProps } from 'src/types/pricing';
+import { IPricingHomeProps } from '../../../types/pricing';
 // components
-import Iconify from 'src/components/iconify';
-import Image from 'src/components/image';
-import Label from 'src/components/label';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import Label from '../../../components/label';
 
 // ----------------------------------------------------------------------
 

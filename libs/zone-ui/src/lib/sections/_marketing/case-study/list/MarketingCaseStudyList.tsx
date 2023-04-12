@@ -1,8 +1,8 @@
 import { useState } from 'react';
 // @mui
-import { Pagination, Tabs, Tab, Box } from '@mui/material';
+import { Box, Pagination, Tab, Tabs } from '@mui/material';
 // types
-import { ICaseStudyProps } from 'src/types/case-study';
+import { ICaseStudyProps } from '../../../../types/case-study';
 //
 import MarketingCaseStudyItem from '../item';
 

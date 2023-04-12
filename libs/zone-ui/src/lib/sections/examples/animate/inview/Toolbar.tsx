@@ -1,13 +1,13 @@
 // @mui
 import {
   Box,
-  Paper,
   FormControlLabel,
-  Switch,
   IconButton,
+  Paper,
+  Switch,
 } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

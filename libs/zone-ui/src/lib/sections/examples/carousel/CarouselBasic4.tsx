@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 // @mui
-import { alpha, useTheme, styled } from '@mui/material/styles';
-import { Box, Card, Typography, IconButton } from '@mui/material';
+import { Box, Card, IconButton, Typography } from '@mui/material';
+import { alpha, styled, useTheme } from '@mui/material/styles';
 // utils
-import { bgBlur } from 'src/utils/cssStyles';
+import { bgBlur } from '../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import Carousel, { CarouselArrows } from 'src/components/carousel';
+import Carousel, { CarouselArrows } from '../../../components/carousel';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

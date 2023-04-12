@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { VerifyCodeView } from 'src/sections/auth/view';
+import { VerifyCodeView } from '../../sections/auth/view';
 
 // ----------------------------------------------------------------------
 

@@ -1,23 +1,23 @@
-import { useState } from 'react';
 import { add } from 'date-fns';
+import { useState } from 'react';
 // @mui
 import {
   Box,
-  Stack,
-  alpha,
   Button,
-  Divider,
   Container,
-  Typography,
+  Divider,
+  Stack,
   StackProps,
+  Typography,
+  alpha,
 } from '@mui/material';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 //
 import {
   ProductColorPicker,
-  ProductOptionPicker,
   ProductCountdownBlock,
+  ProductOptionPicker,
 } from '../components';
 
 // ----------------------------------------------------------------------

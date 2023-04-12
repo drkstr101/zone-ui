@@ -1,29 +1,29 @@
 import { m } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
-  Paper,
   Button,
   Container,
-  Typography,
-  Link,
   Unstable_Grid2 as Grid,
+  Link,
+  Paper,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // types
-import { ICaseStudyProps } from 'src/types/case-study';
+import { ICaseStudyProps } from '../../../types/case-study';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

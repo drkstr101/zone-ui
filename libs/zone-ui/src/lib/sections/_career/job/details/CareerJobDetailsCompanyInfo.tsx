@@ -1,9 +1,9 @@
 // @mui
-import { Stack, Typography, Link, Paper } from '@mui/material';
+import { Link, Paper, Stack, Typography } from '@mui/material';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../../types/job';
 // components
-import Image from 'src/components/image';
+import Image from '../../../../components/image';
 
 // ----------------------------------------------------------------------
 

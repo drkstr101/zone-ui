@@ -1,10 +1,10 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import { Button, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 
 // ----------------------------------------------------------------------
 

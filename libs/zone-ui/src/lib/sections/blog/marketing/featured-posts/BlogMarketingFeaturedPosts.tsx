@@ -1,17 +1,17 @@
 import { useRef, useState } from 'react';
 // @mui
-import { styled, alpha, useTheme } from '@mui/material/styles';
 import { Container } from '@mui/material';
+import { alpha, styled, useTheme } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import Image from 'src/components/image';
 import Carousel, {
-  CarouselDots,
   CarouselArrows,
-} from 'src/components/carousel';
+  CarouselDots,
+} from '../../../../components/carousel';
+import Image from '../../../../components/image';
 //
 import PostItem from './PostItem';
 

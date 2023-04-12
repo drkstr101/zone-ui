@@ -1,16 +1,16 @@
 // @mui
 import {
   Box,
-  Stack,
-  Button,
   BoxProps,
+  Button,
   Container,
+  InputAdornment,
+  Stack,
   TextField,
   Typography,
-  InputAdornment,
 } from '@mui/material';
 // components
-import SvgColor from 'src/components/svg-color';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

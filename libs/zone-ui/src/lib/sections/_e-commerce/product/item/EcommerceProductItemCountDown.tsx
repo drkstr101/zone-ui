@@ -1,20 +1,20 @@
 import { add } from 'date-fns';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
+import { Link, Stack, SxProps, Typography } from '@mui/material';
 import { Theme, alpha, useTheme } from '@mui/material/styles';
-import { Typography, Stack, SxProps, Link } from '@mui/material';
 // utils
-import { filterStyles } from 'src/utils/cssStyles';
-import { fCurrency } from 'src/utils/formatNumber';
+import { filterStyles } from '../../../../utils/cssStyles';
+import { fCurrency } from '../../../../utils/formatNumber';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { IProductItemProps } from 'src/types/product';
+import { IProductItemProps } from '../../../../types/product';
 // theme
-import { ColorSchema } from 'src/theme/palette';
+import { ColorSchema } from '../../../../theme/palette';
 // components
-import Image from 'src/components/image';
-import TextMaxLine from 'src/components/text-max-line';
+import Image from '../../../../components/image';
+import TextMaxLine from '../../../../components/text-max-line';
 //
 import { ProductCountdownBlock } from '../../components';
 

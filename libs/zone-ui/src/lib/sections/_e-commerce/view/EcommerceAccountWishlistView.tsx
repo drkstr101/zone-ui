@@ -1,15 +1,15 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Box, Typography, Button, Stack } from '@mui/material';
+import { Box, Button, Stack, Typography } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
-import { EcommerceAccountLayout } from '../layout';
 import { EcommerceCartList } from '../cart';
+import { EcommerceAccountLayout } from '../layout';
 
 // ----------------------------------------------------------------------
 

@@ -1,7 +1,7 @@
 // @mui
 import { Box, Pagination } from '@mui/material';
 // types
-import { IReviewItemProp } from 'src/types/review';
+import { IReviewItemProp } from '../../../types/review';
 //
 import ReviewItem from './ReviewItem';
 

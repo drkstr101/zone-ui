@@ -1,27 +1,27 @@
 import { useRef } from 'react';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
   Button,
   Container,
-  Typography,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
-import useBoundingClientRect from 'src/hooks/useBoundingClientRect';
+import useBoundingClientRect from '../../../hooks/useBoundingClientRect';
+import useResponsive from '../../../hooks/useResponsive';
 // config
-import { HEADER } from 'src/config-global';
+import { HEADER } from '../../../config-global';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

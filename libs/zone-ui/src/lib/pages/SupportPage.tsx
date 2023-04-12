@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { SupportView } from 'src/sections/support/view';
+import { SupportView } from '../sections/support/view';
 
 // ----------------------------------------------------------------------
 

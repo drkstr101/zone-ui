@@ -1,16 +1,16 @@
 // @mui
+import { LoadingButton } from '@mui/lab';
 import {
-  Switch,
-  Divider,
-  Typography,
-  Stack,
   Box,
   BoxProps,
+  Divider,
+  Stack,
+  Switch,
+  Typography,
 } from '@mui/material';
-import { LoadingButton } from '@mui/lab';
 // components
-import Label from 'src/components/label';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Label from '../../../components/label';
 
 // ----------------------------------------------------------------------
 

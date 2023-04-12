@@ -1,14 +1,14 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Box, Container, Stack, Button, Typography } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../../types/job';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import { CareerJobItem } from '../item';
 

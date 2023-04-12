@@ -1,25 +1,25 @@
 import { useRef } from 'react';
 // @mui
-import { styled, alpha, useTheme } from '@mui/material/styles';
 import {
   Box,
   Container,
-  Typography,
-  Stack,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled, useTheme } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
-import useBoundingClientRect from 'src/hooks/useBoundingClientRect';
+import useBoundingClientRect from '../../../hooks/useBoundingClientRect';
+import useResponsive from '../../../hooks/useResponsive';
 // types
-import { ITeamMemberProps } from 'src/types/team';
+import { ITeamMemberProps } from '../../../types/team';
 // components
 import Carousel, {
   CarouselArrows,
   CarouselDots,
-} from 'src/components/carousel';
+} from '../../../components/carousel';
 //
 import TeamMember from './TeamMember';
 

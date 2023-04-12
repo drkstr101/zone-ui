@@ -1,9 +1,9 @@
 // @mui
-import { Typography, Stack, Container, Box } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 // types
-import { IBrandProps } from 'src/types/brand';
+import { IBrandProps } from '../../../types/brand';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

@@ -1,17 +1,17 @@
 // @mui
 import {
   Box,
-  Stack,
-  Rating,
   Button,
   Container,
-  Typography,
   Unstable_Grid2 as Grid,
+  Rating,
+  Stack,
+  Typography,
 } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import { ReviewProgress } from '../components';
 

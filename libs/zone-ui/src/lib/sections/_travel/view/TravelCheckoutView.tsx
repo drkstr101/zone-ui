@@ -1,30 +1,30 @@
-import * as Yup from 'yup';
+import { yupResolver } from '@hookform/resolvers/yup';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
 import { useNavigate } from 'react-router-dom';
+import * as Yup from 'yup';
 // @mui
 import {
   Box,
-  Stack,
-  Divider,
   Container,
-  Typography,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { ITourCheckoutProps } from 'src/types/tour';
+import { ITourCheckoutProps } from '../../../types/tour';
 // _mock
-import { _tours } from 'src/_mock';
+import { _tours } from '../../../_mock';
 // components
-import FormProvider from 'src/components/hook-form';
+import FormProvider from '../../../components/hook-form';
 //
 import {
-  TravelCheckOutSummary,
   TravelCheckOutPaymentForm,
   TravelCheckOutShippingForm,
+  TravelCheckOutSummary,
 } from '../checkout';
 
 // ----------------------------------------------------------------------

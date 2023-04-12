@@ -4,13 +4,13 @@ import { Helmet } from 'react-helmet-async';
 // @mui
 import { Box, Container, Fab, Stack } from '@mui/material';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../_mock';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import Iconify from 'src/components/iconify';
-import Player, { PlayerDialog } from 'src/components/player';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Iconify from '../../components/iconify';
+import Player, { PlayerDialog } from '../../components/player';
 
 // ----------------------------------------------------------------------
 

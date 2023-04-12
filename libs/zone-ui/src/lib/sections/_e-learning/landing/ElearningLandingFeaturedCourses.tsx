@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 // @mui
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Container, Stack, Typography, Box } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // types
-import { ICourseProps } from 'src/types/course';
+import { ICourseProps } from '../../../types/course';
 // components
-import Carousel, { CarouselArrows } from 'src/components/carousel';
+import Carousel, { CarouselArrows } from '../../../components/carousel';
 //
 import { ElearningCourseItem } from '../course/item';
 

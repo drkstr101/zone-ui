@@ -1,17 +1,17 @@
 // @mui
 import {
-  Typography,
-  Container,
-  Paper,
-  Button,
   Box,
+  Button,
+  Container,
   Unstable_Grid2 as Grid,
+  Paper,
+  Typography,
 } from '@mui/material';
 // types
-import { ICourseByCategoryProps } from 'src/types/course';
+import { ICourseByCategoryProps } from '../../../types/course';
 // components
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../components/iconify';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

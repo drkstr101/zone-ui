@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { MarketingBlogView } from 'src/sections/_marketing/view';
+import { MarketingBlogView } from '../../sections/_marketing/view';
 
 // ----------------------------------------------------------------------
 

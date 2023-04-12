@@ -1,14 +1,14 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Container, Stack, Button, Typography, Box } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../../types/tour';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import { TravelTourItem } from '../item';
 

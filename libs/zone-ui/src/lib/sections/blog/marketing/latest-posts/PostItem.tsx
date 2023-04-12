@@ -1,18 +1,18 @@
 import { m } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Link, Stack, Avatar } from '@mui/material';
+import { Avatar, Link, Stack } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // utils
-import { fDate } from 'src/utils/formatTime';
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
+import { fDate } from '../../../../utils/formatTime';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import Image from 'src/components/image';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../../components/animate';
+import Image from '../../../../components/image';
 //
 import PostTimeBlock from '../../components/PostTimeBlock';
 

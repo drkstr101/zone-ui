@@ -1,16 +1,16 @@
 // @mui
 import { Container, Unstable_Grid2 as Grid } from '@mui/material';
 // _mock
-import _mock, { _blogMarketingPosts, _tags, _categories } from 'src/_mock';
+import _mock, { _blogMarketingPosts, _categories, _tags } from '../../../_mock';
 //
-import { MarketingLandingFreeSEO } from '../landing';
-import NewsletterMarketing from '../../newsletter/marketing';
-import BlogSidebar from '../../blog/sidebar';
 import { PostSearchMobile } from '../../blog/components';
 import {
-  BlogMarketingPosts,
   BlogMarketingFeaturedPosts,
+  BlogMarketingPosts,
 } from '../../blog/marketing';
+import BlogSidebar from '../../blog/sidebar';
+import NewsletterMarketing from '../../newsletter/marketing';
+import { MarketingLandingFreeSEO } from '../landing';
 
 // ----------------------------------------------------------------------
 

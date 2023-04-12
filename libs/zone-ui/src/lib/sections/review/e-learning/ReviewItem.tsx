@@ -1,21 +1,21 @@
 import { useState } from 'react';
 // @mui
 import {
-  Box,
-  Stack,
-  Rating,
-  Button,
   Avatar,
+  Box,
+  Button,
   Divider,
-  Typography,
+  Rating,
+  Stack,
   TextField,
+  Typography,
 } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../utils/formatTime';
 // types
-import { IReviewItemProp } from 'src/types/review';
+import { IReviewItemProp } from '../../../types/review';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
 // @mui
-import { Typography, Container, Stack, Box } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Image from 'src/components/image';
-import CountUp from 'src/components/count-up';
+import CountUp from '../../../components/count-up';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

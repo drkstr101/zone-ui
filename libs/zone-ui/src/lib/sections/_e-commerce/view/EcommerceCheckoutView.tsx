@@ -1,36 +1,36 @@
-import { useState } from 'react';
-import * as Yup from 'yup';
-import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
+import * as Yup from 'yup';
 // @mui
 import {
   Box,
-  Stack,
   Button,
-  Divider,
   Collapse,
   Container,
-  Typography,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import FormProvider from 'src/components/hook-form';
+import FormProvider from '../../../components/hook-form';
+import Iconify from '../../../components/iconify';
 //
-import { EcommerceHeader } from '../layout';
 import {
   EcommerceCheckoutNewCardForm,
   EcommerceCheckoutOrderSummary,
   EcommerceCheckoutPaymentMethod,
-  EcommerceCheckoutShippingMethod,
   EcommerceCheckoutPersonalDetails,
   EcommerceCheckoutShippingDetails,
+  EcommerceCheckoutShippingMethod,
 } from '../checkout';
+import { EcommerceHeader } from '../layout';
 
 // ----------------------------------------------------------------------
 

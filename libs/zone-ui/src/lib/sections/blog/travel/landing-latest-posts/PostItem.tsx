@@ -1,14 +1,14 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Typography, Link, Divider } from '@mui/material';
+import { Divider, Link, Typography } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../../utils/formatTime';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import TextMaxLine from 'src/components/text-max-line';
+import TextMaxLine from '../../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

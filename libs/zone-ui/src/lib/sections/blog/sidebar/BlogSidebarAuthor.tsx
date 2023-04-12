@@ -1,10 +1,10 @@
-import { Stack, Avatar, Typography, IconButton } from '@mui/material';
+import { Avatar, IconButton, Stack, Typography } from '@mui/material';
 // types
-import { IAuthorProps } from 'src/types/author';
+import { IAuthorProps } from '../../../types/author';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

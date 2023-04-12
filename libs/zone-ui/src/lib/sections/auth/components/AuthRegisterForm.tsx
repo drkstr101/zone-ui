@@ -1,19 +1,19 @@
-import * as Yup from 'yup';
-import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import * as Yup from 'yup';
 // @mui
 import { LoadingButton } from '@mui/lab';
 import {
-  Typography,
-  Stack,
-  Link,
   IconButton,
   InputAdornment,
+  Link,
+  Stack,
+  Typography,
 } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
-import FormProvider, { RHFTextField } from 'src/components/hook-form';
+import FormProvider, { RHFTextField } from '../../../components/hook-form';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

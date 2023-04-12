@@ -1,10 +1,10 @@
 // @mui
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Typography, Stack, Container, Box } from '@mui/material';
 // types
-import { IBrandProps } from 'src/types/brand';
+import { IBrandProps } from '../../../types/brand';
 // components
-import SvgColor from 'src/components/svg-color';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

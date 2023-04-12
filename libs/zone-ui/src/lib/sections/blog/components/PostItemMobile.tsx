@@ -1,12 +1,12 @@
 // @mui
-import { Stack, Link } from '@mui/material';
+import { Link, Stack } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../utils/formatTime';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../types/blog';
 // components
-import Image from 'src/components/image';
-import TextMaxLine from 'src/components/text-max-line';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 //
 import PostTimeBlock from './PostTimeBlock';
 

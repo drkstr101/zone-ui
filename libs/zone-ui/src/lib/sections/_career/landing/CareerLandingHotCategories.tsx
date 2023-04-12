@@ -1,18 +1,18 @@
 // @mui
 import {
-  Typography,
-  Stack,
-  Container,
   Box,
-  Paper,
   Button,
+  Container,
+  Paper,
+  Stack,
+  Typography,
 } from '@mui/material';
 // types
-import { IJobByCategoryProps } from 'src/types/job';
+import { IJobByCategoryProps } from '../../../types/job';
 // components
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../components/iconify';
+import SvgColor from '../../../components/svg-color';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

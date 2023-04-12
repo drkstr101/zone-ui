@@ -1,16 +1,16 @@
 import { useRef } from 'react';
 // @mui
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Typography, Container, Box, Stack } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // types
-import { ITestimonialProps } from 'src/types/testimonial';
+import { ITestimonialProps } from '../../../types/testimonial';
 // components
 import Carousel, {
   CarouselArrows,
   CarouselDots,
-} from 'src/components/carousel';
+} from '../../../components/carousel';
 //
 import TestimonialItem from './TestimonialItem';
 

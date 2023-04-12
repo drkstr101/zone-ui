@@ -2,9 +2,9 @@ import { m } from 'framer-motion';
 // @mui
 import { Box, Container, Typography } from '@mui/material';
 // types
-import { IPricingHomeProps } from 'src/types/pricing';
+import { IPricingHomeProps } from '../../../types/pricing';
 // components
-import { MotionViewport, varFade } from 'src/components/animate';
+import { MotionViewport, varFade } from '../../../components/animate';
 //
 import PlanCard from './PlanCard';
 

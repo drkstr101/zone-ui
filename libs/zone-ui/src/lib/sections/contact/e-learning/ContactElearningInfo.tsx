@@ -1,17 +1,17 @@
 // @mui
 import {
-  Typography,
-  Stack,
   Container,
-  Link,
   Divider,
-  IconButton,
   Unstable_Grid2 as Grid,
+  IconButton,
+  Link,
+  Stack,
+  Typography,
 } from '@mui/material';
 // _mock
-import { _socials, _offices } from 'src/_mock';
+import { _offices, _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import ContactMap from '../map';
 

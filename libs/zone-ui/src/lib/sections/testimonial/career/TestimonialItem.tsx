@@ -1,7 +1,7 @@
 // @mui
-import { Typography, Stack, Rating, StackProps } from '@mui/material';
+import { Rating, Stack, StackProps, Typography } from '@mui/material';
 // types
-import { ITestimonialProps } from 'src/types/testimonial';
+import { ITestimonialProps } from '../../../types/testimonial';
 
 // ----------------------------------------------------------------------
 

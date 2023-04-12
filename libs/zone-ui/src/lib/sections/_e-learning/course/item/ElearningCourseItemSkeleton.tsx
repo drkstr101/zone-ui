@@ -1,7 +1,7 @@
 // @mui
-import { Skeleton, Stack, Card, CardProps } from '@mui/material';
+import { Card, CardProps, Skeleton, Stack } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 
 // ----------------------------------------------------------------------
 

@@ -1,18 +1,18 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
-  Container,
-  Typography,
-  Stack,
   Box,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { bgGradient } from '../../../utils/cssStyles';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Image from 'src/components/image';
-import CountUp from 'src/components/count-up';
+import CountUp from '../../../components/count-up';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

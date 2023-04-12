@@ -1,13 +1,13 @@
-import { useState, useRef, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 // @mui
-import { alpha, useTheme, styled } from '@mui/material/styles';
 import { Box } from '@mui/material';
+import { alpha, styled, useTheme } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import Carousel, { CarouselArrows } from 'src/components/carousel';
-import Lightbox, { useLightBox } from 'src/components/lightbox';
+import Carousel, { CarouselArrows } from '../../../../components/carousel';
+import Image from '../../../../components/image';
+import Lightbox, { useLightBox } from '../../../../components/lightbox';
 
 // ----------------------------------------------------------------------
 

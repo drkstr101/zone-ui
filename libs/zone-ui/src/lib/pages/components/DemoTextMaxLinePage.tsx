@@ -1,12 +1,12 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
 import Masonry from '@mui/lab/Masonry';
-import { Box, Card, CardHeader, Container, CardContent } from '@mui/material';
+import { Box, Card, CardContent, CardHeader, Container } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import TextMaxLine from 'src/components/text-max-line';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import TextMaxLine from '../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

@@ -1,14 +1,14 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Stack, Typography, Rating, Button } from '@mui/material';
+import { Button, Rating, Stack, Typography } from '@mui/material';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../utils/formatNumber';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { IProductItemCompareProps } from 'src/types/product';
+import { IProductItemCompareProps } from '../../../types/product';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

@@ -1,18 +1,18 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { alpha, useTheme } from '@mui/material/styles';
 import { Box, Button, Unstable_Grid2 as Grid } from '@mui/material';
+import { alpha, useTheme } from '@mui/material/styles';
 // utils
-import { filterStyles } from 'src/utils/cssStyles';
+import { filterStyles } from '../../../../utils/cssStyles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { IProductItemHeroProps } from 'src/types/product';
+import { IProductItemHeroProps } from '../../../../types/product';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import Label from 'src/components/label';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../../components/iconify';
+import Image from '../../../../components/image';
+import Label from '../../../../components/label';
+import TextMaxLine from '../../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

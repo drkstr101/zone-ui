@@ -1,25 +1,25 @@
 import { useState } from 'react';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
-  Typography,
-  Stack,
   Box,
-  Link,
   Button,
-  Container,
   Checkbox,
+  Container,
+  Link,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // utils
-import { fDate } from 'src/utils/formatTime';
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
+import { fDate } from '../../../../utils/formatTime';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../../types/job';
 // components
-import Iconify from 'src/components/iconify';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../../components/custom-breadcrumbs';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

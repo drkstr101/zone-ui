@@ -1,11 +1,11 @@
 // form
-import { useFormContext, Controller } from 'react-hook-form';
+import { Controller, useFormContext } from 'react-hook-form';
 // @mui
+import { Box, FormControlLabel, Radio, RadioGroup, Stack } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Radio, Stack, RadioGroup, FormControlLabel, Box } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
-import { RHFTextField } from 'src/components/hook-form';
+import { RHFTextField } from '../../../components/hook-form';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

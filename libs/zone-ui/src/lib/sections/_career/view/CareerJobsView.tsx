@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
 import { Container } from '@mui/material';
 // _mock
-import { _jobs } from 'src/_mock';
+import { _jobs } from '../../../_mock';
 //
 import NewsletterCareer from '../../newsletter/career';
-import { CareerJobList } from '../job/list';
 import CareerFilters from '../job/filters';
+import { CareerJobList } from '../job/list';
 
 // ----------------------------------------------------------------------
 

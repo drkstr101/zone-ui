@@ -1,12 +1,12 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Link, Stack, Divider, Typography, Box } from '@mui/material';
+import { Box, Divider, Link, Stack, Typography } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // components
-import Logo from 'src/components/logo';
+import Logo from '../../../components/logo';
 //
-import { AuthWithSocial, AuthCarousel, AuthRegisterForm } from '../components';
+import { AuthCarousel, AuthRegisterForm, AuthWithSocial } from '../components';
 
 // ----------------------------------------------------------------------
 

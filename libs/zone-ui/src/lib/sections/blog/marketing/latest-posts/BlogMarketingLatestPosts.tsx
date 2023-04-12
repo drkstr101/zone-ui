@@ -1,20 +1,20 @@
 import { useRef } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Box, Container, Typography, Stack, Button } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import Iconify from 'src/components/iconify';
 import Carousel, {
   CarouselArrows,
   CarouselDots,
-} from 'src/components/carousel';
+} from '../../../../components/carousel';
+import Iconify from '../../../../components/iconify';
 //
 import PostItem from './PostItem';
 

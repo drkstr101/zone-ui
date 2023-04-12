@@ -2,43 +2,43 @@ import { m } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { styled } from '@mui/material/styles';
 import {
-  Tab,
-  Fab,
-  Chip,
-  Tabs,
-  Card,
-  Stack,
   Alert,
-  Radio,
   Avatar,
-  Rating,
-  Button,
-  Switch,
-  Slider,
-  Tooltip,
-  Checkbox,
-  TextField,
-  Container,
-  Typography,
-  StackProps,
-  IconButton,
   AvatarGroup,
-  ToggleButton,
+  Button,
+  Card,
+  Checkbox,
+  Chip,
   CircularProgress,
+  Container,
+  Fab,
   FormControlLabel,
-  ToggleButtonGroup,
   Unstable_Grid2 as Grid,
+  IconButton,
+  Radio,
+  Rating,
+  Slider,
+  Stack,
+  StackProps,
+  Switch,
+  Tab,
+  Tabs,
+  TextField,
+  ToggleButton,
+  ToggleButtonGroup,
+  Tooltip,
+  Typography,
 } from '@mui/material';
+import { styled } from '@mui/material/styles';
 import { DateCalendar } from '@mui/x-date-pickers';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import { MotionViewport, varFade } from 'src/components/animate';
+import { MotionViewport, varFade } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

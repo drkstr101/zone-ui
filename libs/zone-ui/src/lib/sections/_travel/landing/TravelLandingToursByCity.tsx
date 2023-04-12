@@ -1,24 +1,24 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
-  Stack,
-  Typography,
-  Paper,
   Avatar,
+  Box,
   Button,
   Container,
-  Box,
   Link,
+  Paper,
+  Stack,
+  Typography,
 } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../types/tour';
 // components
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../components/iconify';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

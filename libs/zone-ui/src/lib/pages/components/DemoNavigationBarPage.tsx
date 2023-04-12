@@ -2,13 +2,13 @@ import { Helmet } from 'react-helmet-async';
 // @mui
 import { Box, Container } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../config-global';
 // components
-import Iconify from 'src/components/iconify';
-import { NavSectionVertical } from 'src/components/nav-section';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Iconify from '../../components/iconify';
+import { NavSectionVertical } from '../../components/nav-section';
 
 // ----------------------------------------------------------------------
 

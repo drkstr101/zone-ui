@@ -1,19 +1,19 @@
-import { useRef, useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 // @mui
+import { Avatar, Box, Button, Stack, Typography } from '@mui/material';
 import { alpha, styled, useTheme } from '@mui/material/styles';
-import { Stack, Typography, Button, Avatar, Box } from '@mui/material';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
-import { bgGradient, bgBlur } from 'src/utils/cssStyles';
+import { bgBlur, bgGradient } from '../../../utils/cssStyles';
+import { fCurrency } from '../../../utils/formatNumber';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../types/tour';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
-import Carousel, { CarouselDots } from 'src/components/carousel';
+import Carousel, { CarouselDots } from '../../../components/carousel';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

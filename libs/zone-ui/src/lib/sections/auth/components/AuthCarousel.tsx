@@ -1,11 +1,11 @@
 // @mui
-import { styled, alpha, useTheme } from '@mui/material/styles';
 import { Box, Typography } from '@mui/material';
+import { alpha, styled, useTheme } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import Carousel, { CarouselDots } from 'src/components/carousel';
+import Carousel, { CarouselDots } from '../../../components/carousel';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

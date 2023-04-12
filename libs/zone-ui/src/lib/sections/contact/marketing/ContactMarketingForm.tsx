@@ -1,16 +1,16 @@
-import * as Yup from 'yup';
-import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { Controller, useForm } from 'react-hook-form';
+import * as Yup from 'yup';
 // @mui
 import { LoadingButton } from '@mui/lab';
-import { Stack, Typography, ToggleButton, FormHelperText } from '@mui/material';
+import { FormHelperText, Stack, ToggleButton, Typography } from '@mui/material';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../utils/formatNumber';
 // components
 import FormProvider, {
-  RHFTextField,
   RHFSlider,
-} from 'src/components/hook-form';
+  RHFTextField,
+} from '../../../components/hook-form';
 
 // ----------------------------------------------------------------------
 

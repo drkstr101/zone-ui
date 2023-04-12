@@ -1,9 +1,9 @@
 // @mui
-import { Typography, Stack, Avatar } from '@mui/material';
+import { Avatar, Stack, Typography } from '@mui/material';
 // types
-import { ITestimonialProps } from 'src/types/testimonial';
+import { ITestimonialProps } from '../../../types/testimonial';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

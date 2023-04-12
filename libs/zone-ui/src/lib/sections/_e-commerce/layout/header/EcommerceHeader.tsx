@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Stack, Badge, Container, IconButton, Button } from '@mui/material';
+import { Badge, Button, Container, IconButton, Stack } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 import {
   MegaMenuDesktopHorizon,
   MegaMenuMobile,
-} from 'src/components/mega-menu';
+} from '../../../../components/mega-menu';
 //
 import { data } from './config-navigation';
 

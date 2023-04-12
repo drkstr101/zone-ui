@@ -1,28 +1,28 @@
 import { useState } from 'react';
 // @mui
-import { alpha, styled } from '@mui/material/styles';
 import {
-  Fab,
-  Typography,
-  Stack,
-  Container,
   Box,
-  Divider,
   Button,
+  Container,
+  Divider,
+  Fab,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { bgGradient } from '../../../utils/cssStyles';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../_mock';
 // assets
-import ElearningHeroIllustration from 'src/assets/illustrations/ElearningHeroIllustration';
+import ElearningHeroIllustration from '../../../assets/illustrations/ElearningHeroIllustration';
 // components
-import Iconify from 'src/components/iconify';
-import { PlayerDialog } from 'src/components/player';
+import Iconify from '../../../components/iconify';
+import { PlayerDialog } from '../../../components/player';
 
 // ----------------------------------------------------------------------
 

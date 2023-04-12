@@ -1,21 +1,21 @@
 // @mui
-import { alpha, styled } from '@mui/material/styles';
 import {
-  Stack,
   Button,
   Container,
-  InputBase,
-  Typography,
-  InputBaseProps,
-  InputAdornment,
   Unstable_Grid2 as Grid,
+  InputAdornment,
+  InputBase,
+  InputBaseProps,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

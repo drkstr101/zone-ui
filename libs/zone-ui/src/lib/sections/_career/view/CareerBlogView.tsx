@@ -1,11 +1,11 @@
 // @mui
 import { Container, Unstable_Grid2 as Grid } from '@mui/material';
 // _mock
-import _mock, { _blogCareerPosts, _tags, _categories } from 'src/_mock';
+import _mock, { _blogCareerPosts, _categories, _tags } from '../../../_mock';
 //
-import BlogSidebar from '../../blog/sidebar';
-import { PostSearchMobile } from '../../blog/components';
 import { BlogCareerPosts } from '../../blog/career';
+import { PostSearchMobile } from '../../blog/components';
+import BlogSidebar from '../../blog/sidebar';
 import NewsletterCareer from '../../newsletter/career';
 
 // ----------------------------------------------------------------------

@@ -1,30 +1,30 @@
 import { useState } from 'react';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
   Button,
-  Divider,
   Container,
-  Typography,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { bgGradient } from '../../../utils/cssStyles';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // types
-import { ICountriesProps } from 'src/types/contact';
-import { IJobFiltersProps } from 'src/types/job';
+import { ICountriesProps } from '../../../types/contact';
+import { IJobFiltersProps } from '../../../types/job';
 // _mock
-import { _brands } from 'src/_mock';
+import { _brands } from '../../../_mock';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // assets
-import CareerHeroIllustration from 'src/assets/illustrations/CareerHeroIllustration';
+import CareerHeroIllustration from '../../../assets/illustrations/CareerHeroIllustration';
 // components
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
+import Iconify from '../../../components/iconify';
+import SvgColor from '../../../components/svg-color';
 //
 import {
   CareerFilterKeyword,

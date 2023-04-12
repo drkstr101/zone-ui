@@ -1,13 +1,17 @@
 // @mui
-import { Container, Typography, Stack } from '@mui/material';
+import { Container, Stack, Typography } from '@mui/material';
 // _mock
-import { _caseStudies, _blogMarketingPosts, _testimonials } from 'src/_mock';
+import {
+  _blogMarketingPosts,
+  _caseStudies,
+  _testimonials,
+} from '../../../_mock';
 //
-import NewsletterMarketing from '../../newsletter/marketing';
 import { BlogMarketingLatestPosts } from '../../blog/marketing';
+import NewsletterMarketing from '../../newsletter/marketing';
 import TestimonialMarketing from '../../testimonial/marketing';
-import { MarketingLandingFreeSEO } from '../landing';
 import { MarketingCaseStudyList } from '../case-study/list';
+import { MarketingLandingFreeSEO } from '../landing';
 
 // ----------------------------------------------------------------------
 

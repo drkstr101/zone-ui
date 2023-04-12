@@ -1,18 +1,18 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
-  Container,
-  Typography,
   Button,
+  Container,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

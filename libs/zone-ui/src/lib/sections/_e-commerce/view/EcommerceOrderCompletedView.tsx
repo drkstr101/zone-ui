@@ -1,12 +1,12 @@
 import { m } from 'framer-motion';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Box, Button, Typography, Stack, Container } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // components
-import Iconify from 'src/components/iconify';
-import { MotionContainer, varBounce } from 'src/components/animate';
+import { MotionContainer, varBounce } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
 //
 import { EcommerceHeader } from '../layout';
 

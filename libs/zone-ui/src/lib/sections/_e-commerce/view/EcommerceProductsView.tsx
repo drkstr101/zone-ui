@@ -1,25 +1,25 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
 import {
   Box,
-  Stack,
   Button,
-  Select,
-  Divider,
-  MenuItem,
   Container,
-  Typography,
+  Divider,
   FormControl,
-  ToggleButton,
+  MenuItem,
+  Select,
   SelectChangeEvent,
+  Stack,
+  ToggleButton,
   ToggleButtonGroup,
+  Typography,
 } from '@mui/material';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../config-global';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import { EcommerceHeader } from '../layout';
 import EcommerceFilters from '../product/filters';

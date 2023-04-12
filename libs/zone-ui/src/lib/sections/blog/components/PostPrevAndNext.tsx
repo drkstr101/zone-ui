@@ -1,16 +1,16 @@
 // @mui
 import {
-  Link,
-  Stack,
   Avatar,
-  Typography,
   CardActionArea,
   Unstable_Grid2 as Grid,
+  Link,
+  Stack,
+  Typography,
 } from '@mui/material';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../types/blog';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
 // @mui
-import { Typography, Stack, Box, Divider } from '@mui/material';
+import { Box, Divider, Stack, Typography } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../../utils/formatTime';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../../types/tour';
 // components
-import Iconify, { IconifyProps } from 'src/components/iconify';
+import Iconify, { IconifyProps } from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

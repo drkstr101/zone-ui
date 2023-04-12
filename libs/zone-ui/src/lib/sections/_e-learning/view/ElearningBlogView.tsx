@@ -1,15 +1,15 @@
 // @mui
 import { Container, Unstable_Grid2 as Grid } from '@mui/material';
 // _mock
-import _mock, { _blogCoursePosts, _tags, _categories } from 'src/_mock';
+import _mock, { _blogCoursePosts, _categories, _tags } from '../../../_mock';
 //
-import NewsletterElearning from '../../newsletter/e-learning';
-import BlogSidebar from '../../blog/sidebar';
 import { PostSearchMobile } from '../../blog/components';
 import {
-  BlogElearningPosts,
   BlogElearningFeaturedPost,
+  BlogElearningPosts,
 } from '../../blog/e-learning';
+import BlogSidebar from '../../blog/sidebar';
+import NewsletterElearning from '../../newsletter/e-learning';
 
 // ----------------------------------------------------------------------
 

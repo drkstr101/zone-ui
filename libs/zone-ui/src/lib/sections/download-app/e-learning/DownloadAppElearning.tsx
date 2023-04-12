@@ -1,18 +1,18 @@
 // @mui
-import { alpha, styled } from '@mui/material/styles';
 import {
-  Stack,
   Button,
-  Divider,
   Container,
-  Typography,
-  StackProps,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  StackProps,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 // @mui
+import { Box, Button, Card, Divider, Stack, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Typography, Stack, Box, Button, Divider, Card } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../../utils/formatNumber';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../../types/tour';
 //
-import { TravelFilterTime, TravelFilterGuests } from '../filters/components';
+import { TravelFilterGuests, TravelFilterTime } from '../filters/components';
 
 // ----------------------------------------------------------------------
 

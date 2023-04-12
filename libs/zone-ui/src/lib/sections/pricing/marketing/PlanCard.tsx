@@ -1,11 +1,11 @@
 // @mui
-import { Card, Stack, Button, Typography } from '@mui/material';
+import { Button, Card, Stack, Typography } from '@mui/material';
 // types
-import { IPricingMarketingProps } from 'src/types/pricing';
+import { IPricingMarketingProps } from '../../../types/pricing';
 //
-import Image from 'src/components/image';
-import Label from 'src/components/label';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import Label from '../../../components/label';
 
 // ----------------------------------------------------------------------
 

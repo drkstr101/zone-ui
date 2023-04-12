@@ -1,18 +1,18 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
 import { Container, Unstable_Grid2 as Grid } from '@mui/material';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
-import LoadingScreen from 'src/components/loading-screen';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import LoadingScreen from '../../../components/loading-screen';
 //
 import ReviewEcommerce from '../../review/e-commerce';
 import { EcommerceHeader } from '../layout';
 import {
-  EcommerceProductDetailsInfo,
   EcommerceProductDetailsCarousel,
   EcommerceProductDetailsDescription,
+  EcommerceProductDetailsInfo,
 } from '../product/details';
 
 // ----------------------------------------------------------------------

@@ -1,15 +1,15 @@
 // @mui
 import {
   Timeline,
+  TimelineConnector,
+  TimelineContent,
   TimelineDot,
   TimelineItem,
-  TimelineContent,
   TimelineSeparator,
-  TimelineConnector,
 } from '@mui/lab';
-import { Box, Stack, Typography, Container } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 
 // ----------------------------------------------------------------------
 

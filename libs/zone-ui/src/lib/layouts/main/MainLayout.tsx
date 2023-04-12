@@ -2,10 +2,10 @@ import { Outlet, useLocation } from 'react-router-dom';
 // @mui
 import { Box } from '@mui/material';
 // config
-import { HEADER } from 'src/config-global';
+import { HEADER } from '../../config-global';
 //
-import Header from './header/Header';
 import Footer from './footer/Footer';
+import Header from './header/Header';
 
 // ----------------------------------------------------------------------
 

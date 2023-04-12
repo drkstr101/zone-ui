@@ -1,13 +1,13 @@
 // @mui
-import { Typography, Divider, Stack, IconButton, Link } from '@mui/material';
+import { Divider, IconButton, Link, Stack, Typography } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../../utils/formatTime';
 // types
-import { ICaseStudyProps } from 'src/types/case-study';
+import { ICaseStudyProps } from '../../../../types/case-study';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,19 +1,19 @@
 import { useState } from 'react';
 // @mui
-import { styled, alpha, Theme } from '@mui/material/styles';
 import {
-  Input,
-  Slide,
   Button,
-  SxProps,
-  IconButton,
-  InputAdornment,
   ClickAwayListener,
+  IconButton,
+  Input,
+  InputAdornment,
+  Slide,
+  SxProps,
 } from '@mui/material';
+import { Theme, alpha, styled } from '@mui/material/styles';
 // config
-import { HEADER } from 'src/config-global';
+import { HEADER } from '../../config-global';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,13 +1,13 @@
 import { useRef } from 'react';
 // @mui
-import { Typography, Container, Stack, Box, Card } from '@mui/material';
+import { Box, Card, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
-import useBoundingClientRect from 'src/hooks/useBoundingClientRect';
+import useBoundingClientRect from '../../../hooks/useBoundingClientRect';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

@@ -4,13 +4,13 @@ import { Link as RouterLink } from 'react-router-dom';
 import {
   Box,
   Container,
+  Divider,
   Link,
   Paper,
   Typography,
-  Divider,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 
 // ----------------------------------------------------------------------
 

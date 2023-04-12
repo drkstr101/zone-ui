@@ -1,8 +1,8 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import { ListItemButton } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 //
 import { NavItemProps } from '../types';
 

@@ -1,16 +1,16 @@
 // @mui
-import { styled } from '@mui/material/styles';
 import {
-  Box,
   Accordion,
-  Typography,
-  AccordionSummary,
   AccordionDetails,
+  AccordionSummary,
+  Box,
+  Typography,
 } from '@mui/material';
+import { styled } from '@mui/material/styles';
 // types
-import { ICourseLessonProp } from 'src/types/course';
+import { ICourseLessonProp } from '../../../../types/course';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

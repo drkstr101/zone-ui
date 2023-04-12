@@ -1,13 +1,13 @@
 import { m } from 'framer-motion';
-import { useRef, useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 // @mui
+import { Box, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Typography, Box, Stack } from '@mui/material';
 // components
-import Image from 'src/components/image';
-import Lightbox, { useLightBox } from 'src/components/lightbox';
-import Carousel, { CarouselArrows } from 'src/components/carousel';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../../components/animate';
+import Carousel, { CarouselArrows } from '../../../../components/carousel';
+import Image from '../../../../components/image';
+import Lightbox, { useLightBox } from '../../../../components/lightbox';
 
 // ----------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
 // @mui
-import { Typography, Stack, Chip, Box } from '@mui/material';
+import { Box, Chip, Stack, Typography } from '@mui/material';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../../types/job';
 // components
-import Iconify from 'src/components/iconify';
-import Markdown from 'src/components/markdown';
+import Iconify from '../../../../components/iconify';
+import Markdown from '../../../../components/markdown';
 //
 import ContactMap from '../../../contact/map';
 

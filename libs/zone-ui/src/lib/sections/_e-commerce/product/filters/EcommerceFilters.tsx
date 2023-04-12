@@ -1,30 +1,30 @@
 import { useState } from 'react';
 // @mui
 import {
-  Stack,
-  Drawer,
   Button,
   Collapse,
-  Typography,
+  Drawer,
+  Stack,
   StackProps,
+  Typography,
 } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 // types
-import { IProductFiltersProps } from 'src/types/product';
+import { IProductFiltersProps } from '../../../../types/product';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import {
-  EcommerceFilterTag,
   EcommerceFilterBrand,
-  EcommerceFilterPrice,
-  EcommerceFilterStock,
-  EcommerceFilterRating,
   EcommerceFilterCategory,
+  EcommerceFilterPrice,
+  EcommerceFilterRating,
   EcommerceFilterShipping,
+  EcommerceFilterStock,
+  EcommerceFilterTag,
 } from './components';
 
 // ----------------------------------------------------------------------

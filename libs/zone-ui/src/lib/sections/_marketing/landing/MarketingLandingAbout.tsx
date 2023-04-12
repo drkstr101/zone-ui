@@ -1,18 +1,18 @@
 // @mui
 import {
-  Stack,
-  Container,
-  Typography,
-  Button,
-  Divider,
   Box,
+  Button,
+  Container,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

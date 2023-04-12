@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { EcommerceCartView } from 'src/sections/_e-commerce/view';
+import { EcommerceCartView } from '../../sections/_e-commerce/view';
 
 // ----------------------------------------------------------------------
 

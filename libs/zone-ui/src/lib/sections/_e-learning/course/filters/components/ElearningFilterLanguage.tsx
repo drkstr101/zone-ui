@@ -1,9 +1,9 @@
 // @mui
-import { Box, Autocomplete, Checkbox, TextField } from '@mui/material';
+import { Autocomplete, Box, Checkbox, TextField } from '@mui/material';
 // types
-import { ICountriesProps } from 'src/types/contact';
+import { ICountriesProps } from '../../../../../types/contact';
 // assets
-import { countries } from 'src/assets/data';
+import { countries } from '../../../../../assets/data';
 
 // ----------------------------------------------------------------------
 

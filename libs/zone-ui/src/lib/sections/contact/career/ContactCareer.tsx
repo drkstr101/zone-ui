@@ -1,9 +1,9 @@
 // _mock
-import { _offices } from 'src/_mock';
+import { _offices } from '../../../_mock';
 //
 import ContactMap from '../map';
-import ContactCareerInfo from './ContactCareerInfo';
 import ContactCareerForm from './ContactCareerForm';
+import ContactCareerInfo from './ContactCareerInfo';
 
 // ----------------------------------------------------------------------
 

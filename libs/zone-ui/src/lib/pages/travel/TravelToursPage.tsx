@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { TravelToursView } from 'src/sections/_travel/view';
+import { TravelToursView } from '../../sections/_travel/view';
 
 // ----------------------------------------------------------------------
 

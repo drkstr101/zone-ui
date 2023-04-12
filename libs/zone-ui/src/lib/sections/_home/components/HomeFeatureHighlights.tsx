@@ -1,14 +1,14 @@
 import { m } from 'framer-motion';
 // @mui
 import {
-  Container,
-  Typography,
   Box,
+  Container,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
-import { MotionViewport, varFade } from 'src/components/animate';
+import { MotionViewport, varFade } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,14 +1,14 @@
 import { useRef } from 'react';
 
 // @mui
-import { alpha, useTheme } from '@mui/material/styles';
 import { Box, Container } from '@mui/material';
+import { alpha, useTheme } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // _mock
-import { _productsCarousel } from 'src/_mock';
+import { _productsCarousel } from '../../../_mock';
 // components
-import Carousel, { CarouselDots } from 'src/components/carousel';
+import Carousel, { CarouselDots } from '../../../components/carousel';
 //
 import { EcommerceProductItemHero } from '../product/item';
 

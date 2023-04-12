@@ -1,20 +1,20 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
-  Container,
-  Typography,
   Button,
+  Container,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
-import { EcommerceHeader } from '../layout';
 import { EcommerceCartList, EcommerceCartSummary } from '../cart';
+import { EcommerceHeader } from '../layout';
 
 // ----------------------------------------------------------------------
 

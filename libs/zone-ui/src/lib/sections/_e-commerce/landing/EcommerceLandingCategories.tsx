@@ -1,9 +1,9 @@
 // @mui
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Box, Typography, Container, Stack } from '@mui/material';
 // components
-import Image from 'src/components/image';
-import TextMaxLine from 'src/components/text-max-line';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

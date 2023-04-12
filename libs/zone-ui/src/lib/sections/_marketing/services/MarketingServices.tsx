@@ -2,17 +2,17 @@ import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
   Box,
-  Container,
-  Typography,
   Button,
-  Stack,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

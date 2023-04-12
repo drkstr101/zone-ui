@@ -1,19 +1,19 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
-  Link,
-  Stack,
   Button,
   Container,
-  TextField,
-  Typography,
-  TextFieldProps,
   Unstable_Grid2 as Grid,
+  Link,
+  Stack,
+  TextField,
+  TextFieldProps,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

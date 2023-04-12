@@ -4,19 +4,19 @@ import { Helmet } from 'react-helmet-async';
 // @mui
 import {
   Box,
+  Container,
+  Divider,
+  FormControlLabel,
   Stack,
   Switch,
-  Divider,
-  Container,
   Typography,
-  FormControlLabel,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
 // sections
-import { ReactHookForm } from 'src/sections/examples/form';
+import { ReactHookForm } from '../../sections/examples/form';
 
 // ----------------------------------------------------------------------
 

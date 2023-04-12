@@ -1,9 +1,9 @@
-import { Typography, Paper, Box, Stack, IconButton } from '@mui/material';
+import { Box, IconButton, Paper, Stack, Typography } from '@mui/material';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 // types
-import { IOfficeMapProps } from 'src/types/contact';
+import { IOfficeMapProps } from '../../../types/contact';
 
 // ----------------------------------------------------------------------
 

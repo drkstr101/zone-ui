@@ -3,8 +3,8 @@ import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import { Button, Typography } from '@mui/material';
 // components
-import Image from 'src/components/image';
-import { MotionContainer, varBounce } from 'src/components/animate';
+import { MotionContainer, varBounce } from '../../../components/animate';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

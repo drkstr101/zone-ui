@@ -1,9 +1,9 @@
 // @mui
-import { Box, Container, Typography, Stack } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

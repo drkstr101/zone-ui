@@ -2,10 +2,10 @@ import { differenceInCalendarDays } from 'date-fns';
 // @mui
 import { Stack, Typography } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../../utils/formatTime';
 // components
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../../components/iconify';
+import TextMaxLine from '../../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

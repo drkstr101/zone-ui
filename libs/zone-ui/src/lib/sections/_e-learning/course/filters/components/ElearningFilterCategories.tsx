@@ -1,7 +1,7 @@
 // @mui
-import { Box, Autocomplete, Checkbox, TextField } from '@mui/material';
+import { Autocomplete, Box, Checkbox, TextField } from '@mui/material';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../../_mock';
 
 // ----------------------------------------------------------------------
 

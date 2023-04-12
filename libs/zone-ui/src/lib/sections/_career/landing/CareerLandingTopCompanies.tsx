@@ -1,16 +1,16 @@
 import { useRef } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
+import { Box, Container, Link, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Typography, Container, Box, Link } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { IJobByCompanyProps } from 'src/types/job';
+import { IJobByCompanyProps } from '../../../types/job';
 // components
-import Image from 'src/components/image';
-import TextMaxLine from 'src/components/text-max-line';
-import Carousel, { CarouselArrows } from 'src/components/carousel';
+import Carousel, { CarouselArrows } from '../../../components/carousel';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

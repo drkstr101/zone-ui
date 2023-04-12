@@ -1,27 +1,27 @@
 // _mock
 import {
-  _brands,
-  _members,
   _blogMarketingPosts,
+  _brands,
   _caseStudies,
-  _testimonials,
+  _members,
   _pricingMarketing,
-} from 'src/_mock';
+  _testimonials,
+} from '../../../_mock';
 //
+import { BlogMarketingLatestPosts } from '../../blog/marketing';
+import NewsletterMarketing from '../../newsletter/marketing';
+import OurClientsMarketing from '../../our-clients/marketing';
 import PricingMarketing from '../../pricing/marketing';
 import TeamMarketing from '../../team/marketing';
-import NewsletterMarketing from '../../newsletter/marketing';
-import { BlogMarketingLatestPosts } from '../../blog/marketing';
 import TestimonialMarketing from '../../testimonial/marketing';
-import OurClientsMarketing from '../../our-clients/marketing';
 import {
-  MarketingLandingFaqs,
-  MarketingLandingHero,
   MarketingLandingAbout,
+  MarketingLandingCaseStudies,
+  MarketingLandingFaqs,
   MarketingLandingFreeSEO,
+  MarketingLandingHero,
   MarketingLandingProcess,
   MarketingLandingServices,
-  MarketingLandingCaseStudies,
 } from '../landing';
 
 // ----------------------------------------------------------------------

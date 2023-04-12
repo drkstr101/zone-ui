@@ -1,21 +1,21 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
+  Container,
+  Divider,
+  Unstable_Grid2 as Grid,
   Link,
   Stack,
-  Divider,
-  Container,
   Typography,
-  Unstable_Grid2 as Grid,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 //
-import { AuthWithSocial, AuthLoginForm } from '../components';
+import { AuthLoginForm, AuthWithSocial } from '../components';
 
 // ----------------------------------------------------------------------
 

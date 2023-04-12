@@ -1,21 +1,21 @@
 // @mui
-import { alpha } from '@mui/material/styles';
 import { Box, Container } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // _mock
-import { _tours, _blogTravelPosts, _testimonials } from 'src/_mock';
+import { _blogTravelPosts, _testimonials, _tours } from '../../../_mock';
 //
-import NewsletterTravel from '../../newsletter/travel';
-import TravelFilters from '../tour/filters';
-import TestimonialTravel from '../../testimonial/travel';
 import { BlogTravelLandingLatestPosts } from '../../blog/travel';
+import NewsletterTravel from '../../newsletter/travel';
+import TestimonialTravel from '../../testimonial/travel';
 import {
-  TravelLandingHero,
-  TravelLandingSummary,
-  TravelLandingIntroduce,
-  TravelLandingToursByCity,
-  TravelLandingTourFeatured,
   TravelLandingFavoriteDestinations,
+  TravelLandingHero,
+  TravelLandingIntroduce,
+  TravelLandingSummary,
+  TravelLandingTourFeatured,
+  TravelLandingToursByCity,
 } from '../landing';
+import TravelFilters from '../tour/filters';
 
 // ----------------------------------------------------------------------
 

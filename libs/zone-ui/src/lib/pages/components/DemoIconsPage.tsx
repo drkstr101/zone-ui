@@ -1,22 +1,22 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
-import { Theme } from '@mui/material/styles';
 import {
   Box,
-  Stack,
+  CardHeader,
   Container,
   Link,
-  Tooltip,
-  SxProps,
   Paper,
-  CardHeader,
+  Stack,
+  SxProps,
+  Tooltip,
 } from '@mui/material';
+import { Theme } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Iconify from '../../components/iconify';
+import SvgColor from '../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

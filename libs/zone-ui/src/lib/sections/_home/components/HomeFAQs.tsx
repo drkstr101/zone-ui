@@ -1,24 +1,24 @@
 import { m } from 'framer-motion';
 import { useState } from 'react';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
-  Box,
-  Button,
   Accordion,
-  Container,
-  Typography,
   AccordionDetails,
   AccordionSummary,
+  Box,
+  Button,
+  Container,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // assets
-import { Pattern01 } from 'src/assets/illustrations/pattern';
+import { Pattern01 } from '../../../assets/illustrations/pattern';
 // components
-import Iconify from 'src/components/iconify';
-import { MotionViewport, varFade } from 'src/components/animate';
+import { MotionViewport, varFade } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

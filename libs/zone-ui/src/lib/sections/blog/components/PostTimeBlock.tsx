@@ -1,7 +1,7 @@
 // @mui
-import { Stack, StackProps, Box } from '@mui/material';
+import { Box, Stack, StackProps } from '@mui/material';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../utils/formatTime';
 
 // ----------------------------------------------------------------------
 

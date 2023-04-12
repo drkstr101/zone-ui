@@ -1,34 +1,34 @@
 import { useState } from 'react';
 // @mui
-import { alpha, styled } from '@mui/material/styles';
 import {
+  Avatar,
   Box,
+  Container,
+  Divider,
   Fab,
+  Unstable_Grid2 as Grid,
   Link,
   Stack,
-  Avatar,
-  Divider,
-  Container,
   Typography,
-  Unstable_Grid2 as Grid,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { bgGradient } from '../../../../utils/cssStyles';
+import { fShortenNumber } from '../../../../utils/formatNumber';
 // types
-import { ICourseProps } from 'src/types/course';
+import { ICourseProps } from '../../../../types/course';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../_mock';
 // components
-import Label from 'src/components/label';
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import { PlayerDialog } from 'src/components/player';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../../components/custom-breadcrumbs';
+import Iconify from '../../../../components/iconify';
+import Image from '../../../../components/image';
+import Label from '../../../../components/label';
+import { PlayerDialog } from '../../../../components/player';
 
 // ----------------------------------------------------------------------
 

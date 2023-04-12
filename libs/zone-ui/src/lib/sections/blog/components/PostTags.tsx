@@ -1,7 +1,7 @@
 // @mui
 import { Chip, Stack, Typography } from '@mui/material';
 //
-import { IBlogTagsProps } from 'src/types/blog';
+import { IBlogTagsProps } from '../../../types/blog';
 
 // ----------------------------------------------------------------------
 

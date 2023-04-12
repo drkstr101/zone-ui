@@ -1,22 +1,22 @@
 // @mui
 import {
+  Container,
+  Unstable_Grid2 as Grid,
   Stack,
   Tooltip,
-  Container,
   Typography,
-  Unstable_Grid2 as Grid,
 } from '@mui/material';
 // _mock
-import { _pricing02 } from 'src/_mock';
+import { _pricing02 } from '../../../_mock';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import {
-  PlanHeader,
-  PlanContentMobile,
   PlanContentDesktop,
+  PlanContentMobile,
+  PlanHeader,
 } from '../pricing-02';
 
 // ----------------------------------------------------------------------

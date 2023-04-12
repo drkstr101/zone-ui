@@ -1,8 +1,8 @@
 // @mui
-import { Typography, Container, Button, Box } from '@mui/material';
+import { Box, Button, Container, Typography } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
+import Iconify from '../../../components/iconify';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

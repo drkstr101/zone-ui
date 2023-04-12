@@ -1,25 +1,25 @@
 import { useState } from 'react';
 // @mui
-import { Stack, Button, Drawer, Box } from '@mui/material';
+import { Box, Button, Drawer, Stack } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 // types
-import { ICountriesProps } from 'src/types/contact';
-import { IJobFiltersProps } from 'src/types/job';
+import { ICountriesProps } from '../../../../types/contact';
+import { IJobFiltersProps } from '../../../../types/job';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import {
-  CareerFilterType,
-  CareerFilterLevel,
-  CareerFilterSalary,
-  CareerFilterKeyword,
   CareerFilterBenefits,
-  CareerFilterLocations,
   CareerFilterCategories,
+  CareerFilterKeyword,
+  CareerFilterLevel,
+  CareerFilterLocations,
+  CareerFilterSalary,
+  CareerFilterType,
 } from './components';
 
 // ----------------------------------------------------------------------

@@ -1,20 +1,20 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
   Button,
   Divider,
+  InputAdornment,
+  Stack,
+  StackProps,
   TextField,
   Typography,
-  StackProps,
-  InputAdornment,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // utils
-import { fCurrency, fPercent } from 'src/utils/formatNumber';
+import { fCurrency, fPercent } from '../../../utils/formatNumber';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 
 // ----------------------------------------------------------------------
 

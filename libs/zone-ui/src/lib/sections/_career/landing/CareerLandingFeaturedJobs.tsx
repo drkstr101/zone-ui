@@ -1,19 +1,19 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
-  Container,
-  Stack,
-  Button,
-  Typography,
   Box,
+  Button,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../types/job';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import CareerJobItem from '../job/item/CareerJobItem';
 

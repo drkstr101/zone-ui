@@ -1,16 +1,16 @@
 // _mock
-import { _blogMarketingPosts, _testimonials } from 'src/_mock';
+import { _blogMarketingPosts, _testimonials } from '../../../_mock';
 //
+import { BlogMarketingLatestPosts } from '../../blog/marketing';
 import NewsletterMarketing from '../../newsletter/marketing';
 import TestimonialMarketing from '../../testimonial/marketing';
-import { BlogMarketingLatestPosts } from '../../blog/marketing';
 import { MarketingLandingFreeSEO } from '../landing';
 import {
   MarketingServices,
-  MarketingServicesHero,
-  MarketingServicesInclude,
   MarketingServicesBenefits,
+  MarketingServicesHero,
   MarketingServicesHowItWork,
+  MarketingServicesInclude,
 } from '../services';
 
 // ----------------------------------------------------------------------

@@ -1,17 +1,17 @@
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
   Box,
-  Stack,
-  Radio,
-  Typography,
-  LinearProgress,
   FormControlLabel,
+  LinearProgress,
+  Radio,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

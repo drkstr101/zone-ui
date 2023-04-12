@@ -1,13 +1,13 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Container, Typography, Stack, Button } from '@mui/material';
+import { Button, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 // _mock
-import { _tours } from 'src/_mock';
+import { _tours } from '../../../_mock';
 //
 import {
   TravelOrderCompletedInfo,

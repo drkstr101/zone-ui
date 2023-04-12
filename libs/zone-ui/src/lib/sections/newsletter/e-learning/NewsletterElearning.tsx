@@ -3,13 +3,13 @@ import {
   Box,
   Button,
   Container,
+  Unstable_Grid2 as Grid,
+  InputAdornment,
   TextField,
   Typography,
-  InputAdornment,
-  Unstable_Grid2 as Grid,
 } from '@mui/material';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

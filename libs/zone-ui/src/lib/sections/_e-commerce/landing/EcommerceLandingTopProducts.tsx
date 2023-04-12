@@ -1,7 +1,7 @@
 // @mui
-import { Box, Typography, Container } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 //
 import {
   EcommerceProductItemHot,

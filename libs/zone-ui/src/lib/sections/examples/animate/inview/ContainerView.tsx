@@ -2,9 +2,9 @@ import { m } from 'framer-motion';
 // @mui
 import { Box, Paper } from '@mui/material';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../_mock';
 // components
-import { MotionContainer } from 'src/components/animate';
+import { MotionContainer } from '../../../../components/animate';
 //
 import getVariant from '../getVariant';
 

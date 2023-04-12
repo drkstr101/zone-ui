@@ -1,7 +1,7 @@
 // @mui
-import { Typography, Container, Stack, Button, Box } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // types
-import { ITeamMemberProps } from 'src/types/team';
+import { ITeamMemberProps } from '../../../types/team';
 //
 import TeamMember from './TeamMember';
 

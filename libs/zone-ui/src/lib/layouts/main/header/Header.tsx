@@ -1,31 +1,31 @@
 // @mui
-import { useTheme } from '@mui/material/styles';
 import {
+  AppBar,
   Box,
+  Button,
+  Container,
   Link,
   Stack,
-  Button,
-  AppBar,
   Toolbar,
-  Container,
 } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // hooks
-import useOffSetTop from 'src/hooks/useOffSetTop';
-import useResponsive from 'src/hooks/useResponsive';
+import useOffSetTop from '../../../hooks/useOffSetTop';
+import useResponsive from '../../../hooks/useResponsive';
 // utils
-import { bgBlur } from 'src/utils/cssStyles';
+import { bgBlur } from '../../../utils/cssStyles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // config
-import { HEADER } from 'src/config-global';
+import { HEADER } from '../../../config-global';
 // components
-import Logo from 'src/components/logo';
-import Label from 'src/components/label';
-import SettingsDrawer from 'src/components/settings/drawer';
+import Label from '../../../components/label';
+import Logo from '../../../components/logo';
+import SettingsDrawer from '../../../components/settings/drawer';
 //
-import { NavMobile, NavDesktop, navConfig } from '../nav';
-import Searchbar from '../../components/Searchbar';
 import HeaderShadow from '../../components/HeaderShadow';
+import Searchbar from '../../components/Searchbar';
+import { NavDesktop, NavMobile, navConfig } from '../nav';
 
 // ----------------------------------------------------------------------
 

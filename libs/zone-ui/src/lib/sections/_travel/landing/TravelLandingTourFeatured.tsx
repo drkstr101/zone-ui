@@ -1,10 +1,10 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Container, Stack, Button, Typography, Box } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../types/tour';
 //
 import TravelTourItem from '../tour/item/TravelTourItem';
 

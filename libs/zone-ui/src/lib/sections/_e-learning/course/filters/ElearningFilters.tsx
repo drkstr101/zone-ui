@@ -1,30 +1,30 @@
 import { useState } from 'react';
 // @mui
 import {
-  Stack,
   Drawer,
-  Typography,
-  TextField,
   InputAdornment,
+  Stack,
+  TextField,
+  Typography,
 } from '@mui/material';
 import { SelectChangeEvent } from '@mui/material/Select';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 // types
-import { ICountriesProps } from 'src/types/contact';
-import { ICourseFiltersProps } from 'src/types/course';
+import { ICountriesProps } from '../../../../types/contact';
+import { ICourseFiltersProps } from '../../../../types/course';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import {
+  ElearningFilterCategories,
+  ElearningFilterDuration,
   ElearningFilterFee,
+  ElearningFilterLanguage,
   ElearningFilterLevel,
   ElearningFilterRating,
-  ElearningFilterLanguage,
-  ElearningFilterDuration,
-  ElearningFilterCategories,
 } from './components';
 
 // ----------------------------------------------------------------------

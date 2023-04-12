@@ -1,33 +1,33 @@
 import { useState } from 'react';
 // @mui
 import {
-  Stack,
   Avatar,
-  Divider,
-  Popover,
   Checkbox,
-  MenuItem,
   Container,
-  Typography,
-  IconButton,
+  Divider,
   Unstable_Grid2 as Grid,
+  IconButton,
+  MenuItem,
+  Popover,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../utils/formatTime';
 // _mock
-import { _blogMarketingPosts, _socials } from 'src/_mock';
+import { _blogMarketingPosts, _socials } from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import Markdown from 'src/components/markdown';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import Markdown from '../../../components/markdown';
 //
+import { PostAuthor, PostSocialsShare, PostTags } from '../../blog/components';
+import { BlogMarketingLatestPosts } from '../../blog/marketing';
 import NewsletterMarketing from '../../newsletter/marketing';
 import { MarketingLandingFreeSEO } from '../landing';
-import { BlogMarketingLatestPosts } from '../../blog/marketing';
-import { PostTags, PostAuthor, PostSocialsShare } from '../../blog/components';
 
 // ----------------------------------------------------------------------
 

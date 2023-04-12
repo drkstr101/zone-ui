@@ -1,15 +1,15 @@
 // @mui
-import { alpha, styled } from '@mui/material/styles';
 import {
-  Container,
-  Typography,
-  Stack,
   Button,
+  Container,
+  Stack,
   StackProps,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

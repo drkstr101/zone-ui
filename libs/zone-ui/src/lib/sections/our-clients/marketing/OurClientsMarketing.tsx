@@ -1,11 +1,11 @@
 // @mui
-import { useTheme } from '@mui/material/styles';
 import { Container } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // types
-import { IBrandProps } from 'src/types/brand';
+import { IBrandProps } from '../../../types/brand';
 // components
-import SvgColor from 'src/components/svg-color';
-import Carousel from 'src/components/carousel';
+import Carousel from '../../../components/carousel';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

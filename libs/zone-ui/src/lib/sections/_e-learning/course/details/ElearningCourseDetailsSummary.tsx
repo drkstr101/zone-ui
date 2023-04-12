@@ -1,10 +1,10 @@
 // @mui
+import { Box, Chip, Stack, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Stack, Typography, Chip, Box } from '@mui/material';
 // types
-import { ICourseProps } from 'src/types/course';
+import { ICourseProps } from '../../../../types/course';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import ElearningCourseDetailsLessonList from './ElearningCourseDetailsLessonList';
 

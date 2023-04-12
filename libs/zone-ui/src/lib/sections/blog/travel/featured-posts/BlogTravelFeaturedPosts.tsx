@@ -1,7 +1,7 @@
 // @mui
-import { Container, Box } from '@mui/material';
+import { Box, Container } from '@mui/material';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 //
 import PostItem from './PostItem';
 

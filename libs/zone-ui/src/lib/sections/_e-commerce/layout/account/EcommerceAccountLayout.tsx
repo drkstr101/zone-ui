@@ -1,12 +1,12 @@
 import { useState } from 'react';
 // @mui
-import { Container, Stack, Typography, Button, Box } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../../config-global';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import EcommerceHeader from '../header';
 import EcommerceAccountMenu from './EcommerceAccountMenu';

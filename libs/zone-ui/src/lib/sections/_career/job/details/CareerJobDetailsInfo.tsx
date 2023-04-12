@@ -1,12 +1,12 @@
 // @mui
-import { Stack, Typography, Card } from '@mui/material';
+import { Card, Stack, Typography } from '@mui/material';
 // types
-import { fCurrency } from 'src/utils/formatNumber';
-import { fDate } from 'src/utils/formatTime';
+import { fCurrency } from '../../../../utils/formatNumber';
+import { fDate } from '../../../../utils/formatTime';
 // types
-import { IJobProps } from 'src/types/job';
+import { IJobProps } from '../../../../types/job';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

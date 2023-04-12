@@ -1,12 +1,12 @@
-import { useState, useRef, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import { Box } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import Carousel, { CarouselArrowIndex } from 'src/components/carousel';
+import Carousel, { CarouselArrowIndex } from '../../../components/carousel';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

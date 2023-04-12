@@ -1,18 +1,18 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
-  Stack,
   Button,
   Container,
+  Unstable_Grid2 as Grid,
+  InputAdornment,
+  Stack,
   TextField,
   Typography,
-  InputAdornment,
-  Unstable_Grid2 as Grid,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,12 +1,12 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Stack, Box, Typography, Button, BoxProps } from '@mui/material';
+import { Box, BoxProps, Button, Stack, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../utils/cssStyles';
 // types
-import { IAdvertisementProps } from 'src/types/advertisement';
+import { IAdvertisementProps } from '../../types/advertisement';
 // components
-import Image from 'src/components/image';
+import Image from '../../components/image';
 
 // ----------------------------------------------------------------------
 

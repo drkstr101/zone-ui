@@ -1,16 +1,16 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
+import { AppBar, Link, Stack, Toolbar } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { AppBar, Toolbar, Link, Stack } from '@mui/material';
 // config
-import { HEADER } from 'src/config-global';
+import { HEADER } from '../../config-global';
 // utils
-import { bgBlur } from 'src/utils/cssStyles';
+import { bgBlur } from '../../utils/cssStyles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import Logo from 'src/components/logo';
-import SettingsDrawer from 'src/components/settings/drawer';
+import Logo from '../../components/logo';
+import SettingsDrawer from '../../components/settings/drawer';
 //
 import HeaderShadow from '../components/HeaderShadow';
 

@@ -1,15 +1,15 @@
 import { Link as RouterLink } from 'react-router-dom';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // utils
-import { fDate } from 'src/utils/formatTime';
+import { fDate } from '../../../../utils/formatTime';
 // @mui
-import { Stack, Avatar, Link } from '@mui/material';
+import { Avatar, Link, Stack } from '@mui/material';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import Image from 'src/components/image';
-import TextMaxLine from 'src/components/text-max-line';
+import Image from '../../../../components/image';
+import TextMaxLine from '../../../../components/text-max-line';
 //
 import PostTimeBlock from '../../components/PostTimeBlock';
 

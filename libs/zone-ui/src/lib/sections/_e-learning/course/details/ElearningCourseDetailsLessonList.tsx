@@ -2,7 +2,7 @@ import { useState } from 'react';
 // @mui
 import { Typography } from '@mui/material';
 // types
-import { ICourseLessonProp } from 'src/types/course';
+import { ICourseLessonProp } from '../../../../types/course';
 //
 import ElearningCourseDetailsLessonItem from './ElearningCourseDetailsLessonItem';
 import ElearningCourseDetailsLessonsDialog from './ElearningCourseDetailsLessonsDialog';

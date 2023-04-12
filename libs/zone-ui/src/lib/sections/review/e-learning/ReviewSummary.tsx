@@ -1,17 +1,17 @@
 // @mui
 
 import {
-  Paper,
-  Stack,
-  Rating,
   Button,
+  Paper,
   RadioGroup,
+  Rating,
+  Stack,
   Typography,
 } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import { ReviewProgress } from '../components';
 

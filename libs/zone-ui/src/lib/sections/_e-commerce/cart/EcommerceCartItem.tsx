@@ -1,12 +1,12 @@
 // @mui
-import { Stack, TextField, IconButton, Typography } from '@mui/material';
+import { IconButton, Stack, TextField, Typography } from '@mui/material';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../utils/formatNumber';
 // types
-import { IProductItemProps } from 'src/types/product';
+import { IProductItemProps } from '../../../types/product';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

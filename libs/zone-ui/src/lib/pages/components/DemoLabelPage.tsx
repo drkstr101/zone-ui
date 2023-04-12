@@ -1,20 +1,20 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
   Box,
-  Container,
-  Stack,
-  Paper,
   CardHeader,
+  Container,
+  Paper,
+  Stack,
   Tooltip,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import Label from 'src/components/label';
-import Iconify from 'src/components/iconify';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
+import Iconify from '../../components/iconify';
+import Label from '../../components/label';
 
 // ----------------------------------------------------------------------
 

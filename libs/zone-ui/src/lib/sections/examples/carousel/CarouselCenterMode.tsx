@@ -1,14 +1,14 @@
 import { useRef } from 'react';
 // @mui
+import { Box, CardContent, Link, Paper } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
-import { Box, Paper, Link, CardContent } from '@mui/material';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
-import Carousel, { CarouselArrows } from 'src/components/carousel';
+import Carousel, { CarouselArrows } from '../../../components/carousel';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

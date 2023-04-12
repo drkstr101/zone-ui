@@ -1,18 +1,18 @@
 // _mock
-import { _testimonials } from 'src/_mock';
+import { _testimonials } from '../../../_mock';
 //
 import TestimonialEcommerce from '../../testimonial/e-commerce';
-import { EcommerceHeader } from '../layout';
 import {
-  EcommerceLandingHero,
   EcommerceLandingCategories,
-  EcommerceLandingTopProducts,
-  EcommerceLandingHotDealToday,
-  EcommerceLandingSpecialOffer,
   EcommerceLandingFeaturedBrands,
-  EcommerceLandingPopularProducts,
   EcommerceLandingFeaturedProducts,
+  EcommerceLandingHero,
+  EcommerceLandingHotDealToday,
+  EcommerceLandingPopularProducts,
+  EcommerceLandingSpecialOffer,
+  EcommerceLandingTopProducts,
 } from '../landing';
+import { EcommerceHeader } from '../layout';
 
 // ----------------------------------------------------------------------
 

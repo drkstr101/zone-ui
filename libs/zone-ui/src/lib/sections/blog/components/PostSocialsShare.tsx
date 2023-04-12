@@ -1,10 +1,10 @@
 // @mui
+import { Button, Stack, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { Stack, Button, Typography } from '@mui/material';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

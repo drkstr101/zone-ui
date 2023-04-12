@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // utils
-import localStorageAvailable from 'src/utils/localStorageAvailable';
+import localStorageAvailable from '../utils/localStorageAvailable';
 
 // ----------------------------------------------------------------------
 

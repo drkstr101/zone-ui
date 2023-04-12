@@ -1,11 +1,11 @@
 // @mui
-import { Typography, Stack, Avatar, Box, Link } from '@mui/material';
+import { Avatar, Box, Link, Stack, Typography } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../types/tour';
 
 // ----------------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { ResetPasswordView } from 'src/sections/auth/view';
+import { ResetPasswordView } from '../../sections/auth/view';
 
 // ----------------------------------------------------------------------
 

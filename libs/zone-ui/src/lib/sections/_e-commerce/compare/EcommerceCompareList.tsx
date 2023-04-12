@@ -1,7 +1,7 @@
 // @mui
 import { Divider, Stack } from '@mui/material';
 // types
-import { IProductItemCompareProps } from 'src/types/product';
+import { IProductItemCompareProps } from '../../../types/product';
 //
 import EcommerceCompareItem from './EcommerceCompareItem';
 

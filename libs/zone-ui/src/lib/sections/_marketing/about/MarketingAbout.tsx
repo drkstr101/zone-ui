@@ -1,22 +1,22 @@
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
   Box,
-  Container,
-  Typography,
   Button,
+  Container,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // theme
-import { ColorSchema } from 'src/theme/palette';
+import { ColorSchema } from '../../../theme/palette';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import CountUp from 'src/components/count-up';
+import CountUp from '../../../components/count-up';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

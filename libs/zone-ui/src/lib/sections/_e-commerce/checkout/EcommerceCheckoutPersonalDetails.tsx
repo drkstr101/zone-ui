@@ -2,15 +2,15 @@ import { useState } from 'react';
 // @mui
 import {
   Box,
-  Stack,
   Button,
-  Typography,
-  InputAdornment,
   IconButton,
+  InputAdornment,
+  Stack,
+  Typography,
 } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
-import { RHFTextField } from 'src/components/hook-form';
+import { RHFTextField } from '../../../components/hook-form';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

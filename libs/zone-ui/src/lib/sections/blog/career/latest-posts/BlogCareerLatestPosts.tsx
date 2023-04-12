@@ -1,15 +1,15 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import Masonry from '@mui/lab/Masonry';
-import { Container, Typography, Stack, Button, Box } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../../hooks/useResponsive';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 //
 import PostItemMobile from '../../components/PostItemMobile';
 import PostItem from './PostItem';

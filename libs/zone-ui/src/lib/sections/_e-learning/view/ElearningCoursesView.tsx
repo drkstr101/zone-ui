@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
-import { Container, Stack, Typography, Button, Box } from '@mui/material';
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../config-global';
 // _mock
-import { _courses } from 'src/_mock';
+import { _courses } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import NewsletterElearning from '../../newsletter/e-learning';
-import { ElearningCourseList } from '../course/list';
 import ElearningFilters from '../course/filters';
+import { ElearningCourseList } from '../course/list';
 
 // ----------------------------------------------------------------------
 

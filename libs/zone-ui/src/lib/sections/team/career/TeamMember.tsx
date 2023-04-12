@@ -1,15 +1,15 @@
 // @mui
+import { Box, IconButton, Stack, Typography } from '@mui/material';
 import { alpha, styled } from '@mui/material/styles';
-import { Typography, Stack, Box, IconButton } from '@mui/material';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // types
-import { ITeamMemberProps } from 'src/types/team';
+import { ITeamMemberProps } from '../../../types/team';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

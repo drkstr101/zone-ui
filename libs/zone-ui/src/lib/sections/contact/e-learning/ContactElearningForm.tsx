@@ -1,20 +1,20 @@
-import * as Yup from 'yup';
-import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useForm } from 'react-hook-form';
+import * as Yup from 'yup';
 // @mui
 import { LoadingButton } from '@mui/lab';
 import {
   Box,
-  Stack,
   Container,
-  Typography,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
-import FormProvider, { RHFTextField } from 'src/components/hook-form';
+import FormProvider, { RHFTextField } from '../../../components/hook-form';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

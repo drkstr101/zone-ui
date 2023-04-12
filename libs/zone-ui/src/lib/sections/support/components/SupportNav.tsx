@@ -1,23 +1,23 @@
 // @mui
-import { styled } from '@mui/material/styles';
 import {
   Box,
+  CardActionArea,
+  Drawer,
+  Stack,
+  StackProps,
   Tab,
   Tabs,
-  Stack,
-  Drawer,
   Typography,
-  CardActionArea,
-  StackProps,
 } from '@mui/material';
+import { styled } from '@mui/material/styles';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // utils
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../config-global';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import Scrollbar from 'src/components/scrollbar';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import Scrollbar from '../../../components/scrollbar';
 
 // ----------------------------------------------------------------------
 

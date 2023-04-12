@@ -1,7 +1,7 @@
 // @mui
 import { Stack, Typography } from '@mui/material';
 // _mock
-import { IProductItemProps } from 'src/types/product';
+import { IProductItemProps } from '../../../../types/product';
 //
 import { EcommerceProductItemBestSellers } from '../item';
 

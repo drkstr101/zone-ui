@@ -1,21 +1,21 @@
 import { m } from 'framer-motion';
-import { useState, useRef } from 'react';
+import { useRef, useState } from 'react';
 // @mui
-import { alpha, useTheme } from '@mui/material/styles';
 import {
   Box,
-  Card,
-  Paper,
   Button,
-  Typography,
+  Card,
   CardContent,
+  Paper,
+  Typography,
 } from '@mui/material';
+import { alpha, useTheme } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // components
-import Image from 'src/components/image';
-import { MotionContainer, varFade } from 'src/components/animate';
-import Carousel, { CarouselArrowIndex } from 'src/components/carousel';
+import { MotionContainer, varFade } from '../../../components/animate';
+import Carousel, { CarouselArrowIndex } from '../../../components/carousel';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

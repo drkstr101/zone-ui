@@ -1,25 +1,25 @@
 // @mui
 import {
   Box,
-  Stack,
-  Drawer,
   Divider,
-  Typography,
+  Drawer,
   IconButton,
+  Stack,
   Tooltip,
+  Typography,
 } from '@mui/material';
 // config
-import { NAV } from 'src/config-global';
+import { NAV } from '../../../config-global';
 //
 import Iconify from '../../iconify';
 import Scrollbar from '../../scrollbar';
 //
 import { useSettingsContext } from '../SettingsContext';
 import BadgeDot from './components/BadgeDot';
+import ColorPresetsOptions from './components/ColorPresetsOptions';
+import DirectionOptions from './components/DirectionOptions';
 import ModeOptions from './components/ModeOptions';
 import ToggleButton from './components/ToggleButton';
-import DirectionOptions from './components/DirectionOptions';
-import ColorPresetsOptions from './components/ColorPresetsOptions';
 
 // ----------------------------------------------------------------------
 

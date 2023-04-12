@@ -1,13 +1,13 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Link, Stack, Divider, Typography } from '@mui/material';
+import { Divider, Link, Stack, Typography } from '@mui/material';
 import { alpha, styled } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 //
-import { AuthWithSocial, AuthLoginForm } from '../components';
+import { AuthLoginForm, AuthWithSocial } from '../components';
 
 // ----------------------------------------------------------------------
 

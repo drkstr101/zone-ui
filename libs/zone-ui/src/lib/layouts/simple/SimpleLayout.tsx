@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 // hooks
-import useOffSetTop from 'src/hooks/useOffSetTop';
+import useOffSetTop from '../../hooks/useOffSetTop';
 //
 import Header from './Header';
 

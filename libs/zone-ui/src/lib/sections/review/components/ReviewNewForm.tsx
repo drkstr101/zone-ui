@@ -1,22 +1,22 @@
-import * as Yup from 'yup';
-import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { Controller, useForm } from 'react-hook-form';
+import * as Yup from 'yup';
 // @mui
 import { LoadingButton } from '@mui/lab';
 import {
-  Stack,
   Button,
-  Rating,
   Dialog,
-  Typography,
-  DialogProps,
-  DialogTitle,
   DialogActions,
   DialogContent,
+  DialogProps,
+  DialogTitle,
   FormHelperText,
+  Rating,
+  Stack,
+  Typography,
 } from '@mui/material';
 // components
-import FormProvider, { RHFTextField } from 'src/components/hook-form';
+import FormProvider, { RHFTextField } from '../../../components/hook-form';
 
 // ----------------------------------------------------------------------
 

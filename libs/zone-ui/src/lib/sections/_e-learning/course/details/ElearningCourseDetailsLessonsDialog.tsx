@@ -1,18 +1,18 @@
 // @mui
 import {
   Box,
-  Stack,
   Dialog,
-  Typography,
-  ListItemButton,
   IconButton,
+  ListItemButton,
+  Stack,
+  Typography,
 } from '@mui/material';
 // types
-import { ICourseLessonProp } from 'src/types/course';
+import { ICourseLessonProp } from '../../../../types/course';
 // components
-import Player from 'src/components/player';
-import Iconify from 'src/components/iconify';
-import Scrollbar from 'src/components/scrollbar';
+import Iconify from '../../../../components/iconify';
+import Player from '../../../../components/player';
+import Scrollbar from '../../../../components/scrollbar';
 
 // ----------------------------------------------------------------------
 

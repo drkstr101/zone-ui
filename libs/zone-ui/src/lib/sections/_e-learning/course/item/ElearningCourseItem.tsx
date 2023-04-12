@@ -1,25 +1,25 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
-  Divider,
-  Stack,
-  Card,
-  Typography,
-  Box,
-  Link,
   Avatar,
+  Box,
+  Card,
+  Divider,
+  Link,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // utils
-import { fCurrency, fShortenNumber } from 'src/utils/formatNumber';
+import { fCurrency, fShortenNumber } from '../../../../utils/formatNumber';
 // types
-import { ICourseProps } from 'src/types/course';
+import { ICourseProps } from '../../../../types/course';
 // components
-import Image from 'src/components/image';
-import Label from 'src/components/label';
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../../components/iconify';
+import Image from '../../../../components/image';
+import Label from '../../../../components/label';
+import TextMaxLine from '../../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

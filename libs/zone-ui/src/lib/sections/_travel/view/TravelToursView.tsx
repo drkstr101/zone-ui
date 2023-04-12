@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
 import { Container } from '@mui/material';
 // _mock
-import { _tours } from 'src/_mock';
+import { _tours } from '../../../_mock';
 //
 import NewsletterTravel from '../../newsletter/travel';
-import { TravelTourList } from '../tour/list';
 import TravelFilters from '../tour/filters';
+import { TravelTourList } from '../tour/list';
 
 // ----------------------------------------------------------------------
 

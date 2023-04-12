@@ -1,10 +1,10 @@
 import { useState } from 'react';
 // @mui
-import { Link, Stack, Button, Collapse, Typography } from '@mui/material';
+import { Button, Collapse, Link, Stack, Typography } from '@mui/material';
 // types
-import { IPricing02Props } from 'src/types/pricing';
+import { IPricing02Props } from '../../../types/pricing';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

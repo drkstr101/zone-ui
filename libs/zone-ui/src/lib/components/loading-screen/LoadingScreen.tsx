@@ -1,9 +1,9 @@
 import { m } from 'framer-motion';
 // @mui
-import { styled, Theme } from '@mui/material/styles';
 import { Box, SxProps } from '@mui/material';
+import { styled, Theme } from '@mui/material/styles';
 // utils
-import { bgBlur } from 'src/utils/cssStyles';
+import { bgBlur } from '../../utils/cssStyles';
 //
 import Logo from '../logo';
 import ProgressBar from '../progress-bar';

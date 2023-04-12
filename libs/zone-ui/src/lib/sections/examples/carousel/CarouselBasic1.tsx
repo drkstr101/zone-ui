@@ -1,10 +1,10 @@
-import { useState, useRef } from 'react';
+import { useRef, useState } from 'react';
 // @mui
-import { useTheme } from '@mui/material/styles';
 import { Card } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // components
-import Image from 'src/components/image';
-import Carousel, { CarouselArrowIndex } from 'src/components/carousel';
+import Carousel, { CarouselArrowIndex } from '../../../components/carousel';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

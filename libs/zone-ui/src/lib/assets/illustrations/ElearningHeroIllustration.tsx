@@ -1,12 +1,12 @@
-import { memo } from 'react';
 import { m } from 'framer-motion';
+import { memo } from 'react';
 // @mui
+import { Box, BoxProps, Typography } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
-import { Box, Typography, BoxProps } from '@mui/material';
 // components
-import Image from 'src/components/image';
+import Image from '../../components/image';
 // pattern
-import { Icon, Label, Shape, Pattern01, Pattern02 } from './pattern';
+import { Icon, Label, Pattern01, Pattern02, Shape } from './pattern';
 
 // ----------------------------------------------------------------------
 

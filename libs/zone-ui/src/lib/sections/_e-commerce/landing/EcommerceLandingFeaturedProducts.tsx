@@ -1,16 +1,16 @@
 // @mui
 import {
   Box,
-  Typography,
   Container,
   Unstable_Grid2 as Grid,
+  Typography,
 } from '@mui/material';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 //
 import {
-  EcommerceProductItemHot,
   EcommerceProductItemCountDown,
+  EcommerceProductItemHot,
 } from '../product/item';
 
 // ----------------------------------------------------------------------

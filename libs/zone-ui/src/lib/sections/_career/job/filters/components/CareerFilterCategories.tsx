@@ -1,9 +1,9 @@
 // @mui
 import { Autocomplete, InputAdornment, TextField } from '@mui/material';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

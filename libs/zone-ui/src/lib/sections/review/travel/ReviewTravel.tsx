@@ -2,11 +2,11 @@ import { useState } from 'react';
 // @mui
 import {
   Container,
-  SelectChangeEvent,
   Unstable_Grid2 as Grid,
+  SelectChangeEvent,
 } from '@mui/material';
 // _mock
-import { _reviews, _tours } from 'src/_mock';
+import { _reviews, _tours } from '../../../_mock';
 //
 import { ReviewNewForm } from '../components';
 import ReviewList from './ReviewList';

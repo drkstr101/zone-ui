@@ -1,10 +1,10 @@
 // @mui
-import { Stack, Avatar, Typography, Paper, Box, Link } from '@mui/material';
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { Avatar, Box, Link, Paper, Stack, Typography } from '@mui/material';
+import { fShortenNumber } from '../../../../utils/formatNumber';
 // types
-import { ICourseTeacherProp } from 'src/types/course';
+import { ICourseTeacherProp } from '../../../../types/course';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

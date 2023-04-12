@@ -1,9 +1,9 @@
 // @mui
-import { Container, Typography, Unstable_Grid2 as Grid } from '@mui/material';
+import { Container, Unstable_Grid2 as Grid, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Image from 'src/components/image';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

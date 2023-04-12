@@ -1,20 +1,20 @@
 // _mock
 import {
   _blogCoursePosts,
-  _testimonials,
-  _members,
   _brandsColor,
-} from 'src/_mock';
+  _members,
+  _testimonials,
+} from '../../../_mock';
 //
-import { TeamElearningAbout } from '../../team/e-learning';
+import { BlogElearningLatestPosts } from '../../blog/e-learning';
 import NewsletterElearning from '../../newsletter/e-learning';
 import OurClientsElearning from '../../our-clients/e-learning';
-import { BlogElearningLatestPosts } from '../../blog/e-learning';
+import { TeamElearningAbout } from '../../team/e-learning';
 import TestimonialElearning from '../../testimonial/e-learning';
 import {
   ElearningAbout,
-  ElearningAboutHero,
   ElearningAboutCoreValues,
+  ElearningAboutHero,
 } from '../about';
 
 // ----------------------------------------------------------------------

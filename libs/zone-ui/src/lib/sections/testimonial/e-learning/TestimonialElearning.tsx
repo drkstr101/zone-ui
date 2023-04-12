@@ -1,17 +1,17 @@
-import { useRef, useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 // @mui
-import { useTheme } from '@mui/material/styles';
 import {
-  Typography,
-  Container,
-  Stack,
   Box,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // types
-import { ITestimonialProps } from 'src/types/testimonial';
+import { ITestimonialProps } from '../../../types/testimonial';
 // components
-import Carousel, { CarouselArrows } from 'src/components/carousel';
+import Carousel, { CarouselArrows } from '../../../components/carousel';
 //
 import {
   TestimonialItemContent,

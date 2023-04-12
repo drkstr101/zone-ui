@@ -1,22 +1,22 @@
 // @mui
 import {
-  Box,
-  Stack,
-  Paper,
-  Badge,
   Avatar,
+  Badge,
+  Box,
   Button,
-  Typography,
   IconButton,
+  Paper,
+  Stack,
+  Typography,
 } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // types
-import { IAuthorProps } from 'src/types/author';
+import { IAuthorProps } from '../../../types/author';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

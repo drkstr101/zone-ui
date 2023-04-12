@@ -1,24 +1,24 @@
 // _mock
 import {
-  _courses,
-  _members,
   _blogCoursePosts,
   _brandsColor,
-  _testimonials,
+  _courses,
   _coursesByCategories,
-} from 'src/_mock';
+  _members,
+  _testimonials,
+} from '../../../_mock';
 //
-import TeamElearning from '../../team/e-learning';
-import NewsletterElearning from '../../newsletter/e-learning';
-import OurClientsElearning from '../../our-clients/e-learning';
 import { BlogElearningLatestPosts } from '../../blog/e-learning';
 import DownloadAppElearning from '../../download-app/e-learning';
+import NewsletterElearning from '../../newsletter/e-learning';
+import OurClientsElearning from '../../our-clients/e-learning';
+import TeamElearning from '../../team/e-learning';
 import TestimonialElearning from '../../testimonial/e-learning';
 import {
-  ElearningLandingHero,
-  ElearningLandingIntroduce,
   ElearningLandingCategories,
   ElearningLandingFeaturedCourses,
+  ElearningLandingHero,
+  ElearningLandingIntroduce,
 } from '../landing';
 
 // ----------------------------------------------------------------------

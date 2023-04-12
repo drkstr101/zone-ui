@@ -1,13 +1,13 @@
 // @mui
-import { Box, Stack, Pagination } from '@mui/material';
+import { Box, Pagination, Stack } from '@mui/material';
 // types
-import { IProductItemProps } from 'src/types/product';
+import { IProductItemProps } from '../../../../types/product';
 //
 import {
-  EcommerceProductViewListItem,
   EcommerceProductViewGridItem,
-  EcommerceProductViewListItemSkeleton,
   EcommerceProductViewGridItemSkeleton,
+  EcommerceProductViewListItem,
+  EcommerceProductViewListItemSkeleton,
 } from '../item';
 
 // ----------------------------------------------------------------------

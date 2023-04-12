@@ -1,11 +1,11 @@
 // @mui
-import { Stack, Typography, Card, Box, Button } from '@mui/material';
+import { Box, Button, Card, Stack, Typography } from '@mui/material';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency } from '../../../../utils/formatNumber';
 // types
-import { ICourseProps } from 'src/types/course';
+import { ICourseProps } from '../../../../types/course';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

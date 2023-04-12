@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 // @mui
-import { Stack, Container } from '@mui/material';
+import { Container, Stack } from '@mui/material';
 // hooks
-import useOffSetTop from 'src/hooks/useOffSetTop';
+import useOffSetTop from '../../hooks/useOffSetTop';
 //
 import Header from './Header';
 

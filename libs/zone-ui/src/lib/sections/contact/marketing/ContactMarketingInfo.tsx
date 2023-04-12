@@ -1,10 +1,10 @@
 // @mui
-import { Typography, Stack, Link } from '@mui/material';
+import { Link, Stack, Typography } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Iconify from 'src/components/iconify';
-import Image from 'src/components/image';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

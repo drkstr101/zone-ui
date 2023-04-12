@@ -1,7 +1,7 @@
 // @mui
 import { Stack, Typography } from '@mui/material';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../types/blog';
 //
 import PostItemMobile from '../components/PostItemMobile';
 

@@ -2,9 +2,9 @@ import { m } from 'framer-motion';
 // @mui
 import { Box } from '@mui/material';
 // components
-import Image from 'src/components/image';
-import Lightbox, { useLightBox } from 'src/components/lightbox';
-import { varTranHover } from 'src/components/animate';
+import { varTranHover } from '../../../../components/animate';
+import Image from '../../../../components/image';
+import Lightbox, { useLightBox } from '../../../../components/lightbox';
 
 // ----------------------------------------------------------------------
 

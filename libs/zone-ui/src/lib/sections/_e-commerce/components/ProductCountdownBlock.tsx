@@ -1,7 +1,7 @@
 // @mui
-import { Stack, Typography, StackProps } from '@mui/material';
+import { Stack, StackProps, Typography } from '@mui/material';
 // hooks
-import useCountdown from 'src/hooks/useCountdown';
+import useCountdown from '../../../hooks/useCountdown';
 
 // ----------------------------------------------------------------------
 

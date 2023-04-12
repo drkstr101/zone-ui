@@ -1,12 +1,12 @@
 import * as Yup from 'yup';
 // form
-import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useForm } from 'react-hook-form';
 // @mui
-import { Stack, FormHelperText } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
+import { FormHelperText, Stack } from '@mui/material';
 // components
-import FormProvider, { RHFCodes } from 'src/components/hook-form';
+import FormProvider, { RHFCodes } from '../../../components/hook-form';
 
 // ----------------------------------------------------------------------
 

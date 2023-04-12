@@ -1,9 +1,9 @@
 // @mui
 import { Box } from '@mui/material';
 // assets
-import { countries } from 'src/assets/data';
+import { countries } from '../../../assets/data';
 // components
-import { RHFTextField, RHFSelect } from 'src/components/hook-form';
+import { RHFSelect, RHFTextField } from '../../../components/hook-form';
 
 // ----------------------------------------------------------------------
 

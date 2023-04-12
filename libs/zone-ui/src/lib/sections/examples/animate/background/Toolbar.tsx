@@ -1,7 +1,7 @@
 // @mui
-import { Paper, IconButton } from '@mui/material';
+import { IconButton, Paper } from '@mui/material';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

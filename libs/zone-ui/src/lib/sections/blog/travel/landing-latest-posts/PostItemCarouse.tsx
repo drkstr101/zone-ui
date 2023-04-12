@@ -1,17 +1,17 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Box, Stack, Typography, Fab } from '@mui/material';
+import { Box, Fab, Stack, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { fDate } from 'src/utils/formatTime';
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
+import { fDate } from '../../../../utils/formatTime';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
+import Image from '../../../../components/image';
 
 // ----------------------------------------------------------------------
 

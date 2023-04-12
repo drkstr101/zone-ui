@@ -1,17 +1,17 @@
-import { useRef } from 'react';
 import { add } from 'date-fns';
+import { useRef } from 'react';
 // @mui
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Typography, Container, Stack, Box } from '@mui/material';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // _mock
-import { _products } from 'src/_mock';
+import { _products } from '../../../_mock';
 // components
 import Carousel, {
-  CarouselDots,
   CarouselArrows,
-} from 'src/components/carousel';
+  CarouselDots,
+} from '../../../components/carousel';
 //
 import { ProductCountdownBlock } from '../components';
 import { EcommerceProductItemHot } from '../product/item';

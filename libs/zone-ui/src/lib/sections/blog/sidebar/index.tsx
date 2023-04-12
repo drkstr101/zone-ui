@@ -1,17 +1,17 @@
 // @mui
-import { Stack, StackProps, TextField, InputAdornment } from '@mui/material';
+import { InputAdornment, Stack, StackProps, TextField } from '@mui/material';
 // types
-import { IAuthorProps } from 'src/types/author';
-import { IAdvertisementProps } from 'src/types/advertisement';
+import { IAdvertisementProps } from '../../../types/advertisement';
+import { IAuthorProps } from '../../../types/author';
 import {
-  IBlogPostProps,
   IBlogCategoryProps,
+  IBlogPostProps,
   IBlogTagsProps,
-} from 'src/types/blog';
+} from '../../../types/blog';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../components/iconify';
 //
 import Advertisement from '../../advertisement';
 import BlogSidebarAuthor from './BlogSidebarAuthor';

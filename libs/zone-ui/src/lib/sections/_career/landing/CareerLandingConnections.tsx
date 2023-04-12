@@ -1,31 +1,31 @@
-import { useRef } from 'react';
 import { m } from 'framer-motion';
+import { useRef } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { useTheme } from '@mui/material/styles';
 import {
   Box,
-  Container,
-  Typography,
-  Stack,
-  Card,
   Button,
-  Link,
+  Card,
+  Container,
   Unstable_Grid2 as Grid,
+  Link,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
-import useBoundingClientRect from 'src/hooks/useBoundingClientRect';
+import useBoundingClientRect from '../../../hooks/useBoundingClientRect';
+import useResponsive from '../../../hooks/useResponsive';
 // types
-import { IJobByCountryProps } from 'src/types/job';
+import { IJobByCountryProps } from '../../../types/job';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
-import Carousel, { CarouselArrows } from 'src/components/carousel';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../components/animate';
+import Carousel, { CarouselArrows } from '../../../components/carousel';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import SvgColor from '../../../components/svg-color';
 
 // ----------------------------------------------------------------------
 

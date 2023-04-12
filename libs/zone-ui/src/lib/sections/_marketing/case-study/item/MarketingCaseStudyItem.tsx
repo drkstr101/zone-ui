@@ -1,13 +1,13 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
-import { Stack, Typography, Link } from '@mui/material';
+import { Link, Stack, Typography } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../../routes/paths';
 // types
-import { ICaseStudyProps } from 'src/types/case-study';
+import { ICaseStudyProps } from '../../../../types/case-study';
 // components
-import Image from 'src/components/image';
-import TextMaxLine from 'src/components/text-max-line';
+import Image from '../../../../components/image';
+import TextMaxLine from '../../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

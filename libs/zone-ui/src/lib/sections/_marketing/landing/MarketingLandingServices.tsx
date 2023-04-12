@@ -1,19 +1,19 @@
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import {
-  Stack,
-  Container,
-  Typography,
-  Card,
   Box,
+  Card,
+  Container,
   IconButton,
+  Stack,
+  Typography,
 } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // components
-import Iconify from 'src/components/iconify';
-import SvgColor from 'src/components/svg-color';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../components/iconify';
+import SvgColor from '../../../components/svg-color';
+import TextMaxLine from '../../../components/text-max-line';
 
 // ----------------------------------------------------------------------
 

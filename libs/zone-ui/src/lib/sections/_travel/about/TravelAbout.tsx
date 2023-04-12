@@ -1,20 +1,20 @@
 // @mui
 import {
-  Container,
-  Typography,
   Box,
-  Stack,
+  Container,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../utils/formatNumber';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // _mock
-import _mock from 'src/_mock';
+import _mock from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import CountUp from 'src/components/count-up';
+import CountUp from '../../../components/count-up';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

@@ -1,30 +1,30 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // @mui
-import { alpha } from '@mui/material/styles';
 import {
-  Stack,
   Button,
-  Divider,
   Container,
-  Typography,
+  Divider,
   Unstable_Grid2 as Grid,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // _mock
-import { _socials, _tours } from 'src/_mock';
+import { _socials, _tours } from '../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
-import LoadingScreen from 'src/components/loading-screen';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import Iconify from '../../../components/iconify';
+import LoadingScreen from '../../../components/loading-screen';
 //
-import ReviewTravel from '../../review/travel';
 import NewsletterTravel from '../../newsletter/travel';
+import ReviewTravel from '../../review/travel';
 import {
-  TravelTourDetailsHeader,
   TravelTourDetailsGallery,
-  TravelTourDetailsSummary,
+  TravelTourDetailsHeader,
   TravelTourDetailsReserveForm,
+  TravelTourDetailsSummary,
 } from '../tour/details';
 import { TravelTourListSimilar } from '../tour/list';
 

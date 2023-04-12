@@ -1,42 +1,42 @@
 import { useState } from 'react';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
 import {
-  Fab,
-  Stack,
   Avatar,
-  Divider,
-  Popover,
   Checkbox,
-  MenuItem,
   Container,
-  Typography,
-  IconButton,
+  Divider,
+  Fab,
   Unstable_Grid2 as Grid,
+  IconButton,
+  MenuItem,
+  Popover,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../../routes/paths';
 // utils
-import { fDate } from 'src/utils/formatTime';
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
+import { fDate } from '../../../utils/formatTime';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // _mock
-import { _socials, _blogCoursePosts } from 'src/_mock';
+import { _blogCoursePosts, _socials } from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import Markdown from 'src/components/markdown';
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../../components/custom-breadcrumbs';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import Markdown from '../../../components/markdown';
 //
-import NewsletterElearning from '../../newsletter/e-learning';
-import { BlogElearningLatestPosts } from '../../blog/e-learning';
 import {
-  PostTags,
   PostAuthor,
-  PostSocialsShare,
   PostPrevAndNext,
+  PostSocialsShare,
+  PostTags,
 } from '../../blog/components';
+import { BlogElearningLatestPosts } from '../../blog/e-learning';
+import NewsletterElearning from '../../newsletter/e-learning';
 
 // ----------------------------------------------------------------------
 

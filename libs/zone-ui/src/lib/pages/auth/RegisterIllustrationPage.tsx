@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 // sections
-import { RegisterIllustrationView } from 'src/sections/auth/view';
+import { RegisterIllustrationView } from '../../sections/auth/view';
 
 // ----------------------------------------------------------------------
 

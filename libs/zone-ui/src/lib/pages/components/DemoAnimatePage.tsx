@@ -4,17 +4,17 @@ import { Helmet } from 'react-helmet-async';
 // @mui
 import { Box, Container, Tab, Tabs } from '@mui/material';
 // routes
-import { paths } from 'src/routes/paths';
+import { paths } from '../../routes/paths';
 // components
-import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
+import CustomBreadcrumbs from '../../components/custom-breadcrumbs';
 // sections
 import {
+  BackgroundView,
+  DialogView,
   Inview,
   OtherView,
   ScrollView,
-  DialogView,
-  BackgroundView,
-} from 'src/sections/examples/animate';
+} from '../../sections/examples/animate';
 
 // ----------------------------------------------------------------------
 

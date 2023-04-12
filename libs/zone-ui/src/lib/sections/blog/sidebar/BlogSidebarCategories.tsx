@@ -1,7 +1,7 @@
 // @mui
-import { Stack, Link, Typography, Box } from '@mui/material';
+import { Box, Link, Stack, Typography } from '@mui/material';
 // types
-import { IBlogCategoryProps } from 'src/types/blog';
+import { IBlogCategoryProps } from '../../../types/blog';
 
 // ----------------------------------------------------------------------
 

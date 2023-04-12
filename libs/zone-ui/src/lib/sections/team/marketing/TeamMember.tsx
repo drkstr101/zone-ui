@@ -1,17 +1,17 @@
 import { m } from 'framer-motion';
 // @mui
-import { styled, alpha } from '@mui/material/styles';
-import { Typography, Box, Stack, IconButton, StackProps } from '@mui/material';
+import { Box, IconButton, Stack, StackProps, Typography } from '@mui/material';
+import { alpha, styled } from '@mui/material/styles';
 // utils
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../utils/cssStyles';
 // types
-import { ITeamMemberProps } from 'src/types/team';
+import { ITeamMemberProps } from '../../../types/team';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../_mock';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import { varHover, varTranHover } from 'src/components/animate';
+import { varHover, varTranHover } from '../../../components/animate';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
 
 // ----------------------------------------------------------------------
 

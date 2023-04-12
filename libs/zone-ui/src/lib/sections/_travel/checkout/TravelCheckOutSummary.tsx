@@ -1,24 +1,24 @@
 // @mui
 import { LoadingButton } from '@mui/lab';
 import {
-  Card,
-  Stack,
-  Divider,
-  Typography,
   Avatar,
   Box,
+  Card,
+  Divider,
   Link,
+  Stack,
+  Typography,
 } from '@mui/material';
 // utils
-import { fCurrency, fShortenNumber } from 'src/utils/formatNumber';
+import { fCurrency, fShortenNumber } from '../../../utils/formatNumber';
 // hooks
-import useResponsive from 'src/hooks/useResponsive';
+import useResponsive from '../../../hooks/useResponsive';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../types/tour';
 // components
-import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
-import TextMaxLine from 'src/components/text-max-line';
+import Iconify from '../../../components/iconify';
+import Image from '../../../components/image';
+import TextMaxLine from '../../../components/text-max-line';
 //
 import {
   TravelFilterGuests,

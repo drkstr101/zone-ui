@@ -1,24 +1,24 @@
 import { useState } from 'react';
 // @mui
 import {
-  Box,
-  Link,
-  Stack,
   Avatar,
-  Popover,
+  Box,
   Checkbox,
-  MenuItem,
-  Typography,
   IconButton,
+  Link,
+  MenuItem,
+  Popover,
+  Stack,
+  Typography,
 } from '@mui/material';
 // utils
-import { fShortenNumber } from 'src/utils/formatNumber';
+import { fShortenNumber } from '../../../../utils/formatNumber';
 // types
-import { ITourProps } from 'src/types/tour';
+import { ITourProps } from '../../../../types/tour';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

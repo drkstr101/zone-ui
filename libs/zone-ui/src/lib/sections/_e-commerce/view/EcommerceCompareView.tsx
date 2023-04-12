@@ -1,16 +1,16 @@
 // @mui
 import {
+  Container,
+  FormControlLabel,
   Stack,
   Switch,
-  Container,
   Typography,
-  FormControlLabel,
 } from '@mui/material';
 // _mock
-import { _productsCompare } from 'src/_mock';
+import { _productsCompare } from '../../../_mock';
 //
-import { EcommerceHeader } from '../layout';
 import { EcommerceCompareList } from '../compare';
+import { EcommerceHeader } from '../layout';
 
 // ----------------------------------------------------------------------
 

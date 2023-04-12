@@ -1,7 +1,7 @@
 // @mui
-import { Box, Stack, Switch, Container, Typography } from '@mui/material';
+import { Box, Container, Stack, Switch, Typography } from '@mui/material';
 // types
-import { IPricingMarketingProps } from 'src/types/pricing';
+import { IPricingMarketingProps } from '../../../types/pricing';
 // components
 import PlanCard from './PlanCard';
 

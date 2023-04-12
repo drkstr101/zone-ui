@@ -1,13 +1,13 @@
 // @mui
 import {
+  Collapse,
+  FormControlLabel,
   Stack,
   Switch,
-  Collapse,
   Typography,
-  FormControlLabel,
 } from '@mui/material';
 // components
-import { RHFTextField } from 'src/components/hook-form';
+import { RHFTextField } from '../../../components/hook-form';
 
 // ----------------------------------------------------------------------
 

@@ -1,22 +1,22 @@
 // @mui
-import { alpha, useTheme } from '@mui/material/styles';
 import {
   Box,
-  Stack,
   Container,
-  Typography,
-  IconButton,
   Unstable_Grid2 as Grid,
+  IconButton,
+  Stack,
+  Typography,
 } from '@mui/material';
+import { alpha, useTheme } from '@mui/material/styles';
 // utils
-import { fDate } from 'src/utils/formatTime';
-import { bgGradient } from 'src/utils/cssStyles';
+import { bgGradient } from '../../../../utils/cssStyles';
+import { fDate } from '../../../../utils/formatTime';
 // types
-import { IBlogPostProps } from 'src/types/blog';
+import { IBlogPostProps } from '../../../../types/blog';
 // _mock
-import { _socials } from 'src/_mock';
+import { _socials } from '../../../../_mock';
 // components
-import Iconify from 'src/components/iconify';
+import Iconify from '../../../../components/iconify';
 
 // ----------------------------------------------------------------------
 

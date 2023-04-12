@@ -1,18 +1,18 @@
 // _mock
-import { _pricingHome } from 'src/_mock';
+import { _pricingHome } from '../../../_mock';
 // components
-import ScrollProgress from 'src/components/scroll-progress';
+import ScrollProgress from '../../../components/scroll-progress';
 //
 import PricingHome from '../../pricing/home';
 import {
-  HomeHero,
-  HomeFAQs,
-  HomeNewStart,
-  HomeForDesigner,
-  HomeCombination,
   HomeAdvertisement,
+  HomeCombination,
+  HomeFAQs,
   HomeFeatureHighlights,
   HomeFlexibleComponents,
+  HomeForDesigner,
+  HomeHero,
+  HomeNewStart,
 } from '../components';
 
 // ----------------------------------------------------------------------
