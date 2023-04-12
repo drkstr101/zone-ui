@@ -13,12 +13,12 @@ jobs:
         with:
           fetch-depth: 0
       - uses: nrwl/nx-set-shas@v3
-      - run: npm ci
+      - run: yarn install
 
-      - run: npx nx format:check
-      - run: npx nx affected -t lint --parallel=3
-      - run: npx nx affected -t build --parallel=3
-      - run: npx nx test zone-ui --parallel=3 --ci --coverage
+      - run: yarn exec nx format:check
+      - run: yarn exec nx affected -t lint --parallel=3
+      - run: yarn exec nx affected -t build --parallel=3
+      - run: yarn exec nx test zone-ui --parallel=3 --ci --coverage
 
       - name: Coverage report
         uses: eleboys/test-coverage-report-action@v1.0.2
